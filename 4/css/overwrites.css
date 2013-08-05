@@ -1,0 +1,29 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+h3 {
+	line-height: 30px;
+}
+
+h4.heading {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
+}
+
+.hero-unit {
+	padding: 30px;
+}
+
+.hero-unit .credit {
+	margin-bottom: 5px;
+	font-size: 14px;
+	line-height: 16px;
+	font-style: italic;
+}
+
+.treatment {
+	border: 1px solid rgba(0,0,0,.5);
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5)
+}
