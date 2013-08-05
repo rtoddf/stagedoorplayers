@@ -3,6 +3,11 @@ body {
 	padding-bottom: 40px;
 }
 
+h1 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
+}
+
 h3 {
 	line-height: 30px;
 }
@@ -10,6 +15,10 @@ h3 {
 h4.heading {
 	padding-bottom: 5px;
 	border-bottom: 1px solid #999;
+}
+
+.span4, .span6, .span8 {
+	margin-bottom: 20px;
 }
 
 .hero-unit {
@@ -23,7 +32,31 @@ h4.heading {
 	font-style: italic;
 }
 
+.credit {
+	margin-bottom: 0;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: italic;
+}
+
 .treatment {
 	border: 1px solid rgba(0,0,0,.5);
 	box-shadow: 2px 2px 2px rgba(0,0,0,.5)
+}
+
+.cast {
+	margin-bottom: 20px;
+}
+
+.cast img {
+	margin-bottom: 10px;
+}
+
+.cast p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.cast p.credit {
+	font-weight: normal;
 }
