@@ -1,3 +1,14 @@
+.ruby {
+	float: right;
+	margin: 0 0 20px 20px;
+	text-align: center;
+}
+
+.ruby img {
+	border: none !important;
+	box-shadow: none !important;
+}
+
 .specialTextLarge a{
 	border-bottom:none;
 }
