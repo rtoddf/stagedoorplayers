@@ -83,6 +83,10 @@ h4.heading {
 	font-weight: normal;
 }
 
+.sponsor h4 {
+	text-align: center;
+}
+
 
 @media (min-width: 768px) and (max-width: 979px) {
 	.content img {
