@@ -31,7 +31,7 @@ h4.heading {
 	margin: 0 0 10px 10px;
 }
 
-.span4, .span6, .span8 {
+.span3, .span4, .span6, .span8 {
 	margin-bottom: 20px;
 }
 
@@ -74,16 +74,16 @@ h4.heading {
 	margin-bottom: 10px;
 }
 
-.cast p {
+.cast p, .woodies p {
 	text-align: center;
 	font-weight: bold;
 }
 
-.cast p.credit {
+.cast p.credit, .woodies p.credit {
 	font-weight: normal;
 }
 
-.sponsor h4 {
+.sponsor h4, .woodies h4 {
 	text-align: center;
 }
 
