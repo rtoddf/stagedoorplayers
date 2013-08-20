@@ -3,13 +3,27 @@ body {
 	padding-bottom: 40px;
 }
 
+a {
+	color: #b42c30;
+}
+
 h1 {
 	padding-bottom: 5px;
 	border-bottom: 1px solid #999;
+	color: #b42c30;
+}
+
+h2 {
+	color: #b42c30;
 }
 
 h3 {
+	color: #b42c30;
 	line-height: 30px;
+}
+
+h4 {
+	color: #b42c30;
 }
 
 h4.heading {
@@ -40,7 +54,17 @@ h4.heading {
 }
 
 .hero-unit {
+	background-color: rgba(180, 44, 48, .15);
+	border: 2px solid #b42c30;
 	padding: 30px;
+}
+
+.hero-unit.treatment {
+	border: 2px solid #b42c30;
+}
+
+.hero-unit h2 {
+	color: #b42c30;
 }
 
 .hero-unit .credit {
@@ -138,6 +162,21 @@ h4.heading {
 }
 
 @media (max-width: 480px) {
+	.hero-unit h2 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
 	.content img {
 		float: none;
 		width: 100%;
