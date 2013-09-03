@@ -116,6 +116,9 @@ h4.heading {
 	margin: 20px auto;
 }
 
+.gallery h4 {
+	text-align: center;
+}
 
 @media (min-width: 768px) and (max-width: 979px) {
 	.content img {
