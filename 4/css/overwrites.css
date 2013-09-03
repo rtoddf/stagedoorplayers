@@ -116,6 +116,10 @@ h4.heading {
 	margin: 20px auto;
 }
 
+.profile h3 {
+	border-bottom: 1px solid #999;
+}
+
 .gallery h4 {
 	text-align: center;
 }
