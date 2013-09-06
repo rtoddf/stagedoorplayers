@@ -159,6 +159,11 @@ h4.heading {
 		margin: 0 0 10px 10px;
 	}
 
+	.span3.cast {
+		width: 23%;
+		float: left;
+		margin-right: 10px;
+	}
 }
 
 @media (max-width: 599px) {
@@ -190,7 +195,11 @@ h4.heading {
 		width: 100%;
 		margin: 0 0 15px 0;
 	}
-
+	.span3.cast {
+		width: 22%;
+		float: left;
+		margin-right: 10px;
+	}
 }
 
 
