@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/overwrites.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">Stage Door Players</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/index/slide-01.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/index/slide-02.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/index/slide-03.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right treatment" src="images/index/index_lughnasa.jpg">
+        <h2 class="featurette-heading">Dancing at Lughnasa</h2>
+        <p class="lead">May 17 through June 9, 2013<br />
+        Friday and Saturday @ 8:00pm, Sunday Matinees @ 2:30pm<br />
+        No performance Sunday May 26.<br />
+        Additional performance added Thursday June 6 at 8:00</p>
+        <p>Winner of the 1992 Tony Award for Best Play, and regarded as "the most elegant and rueful memory play since The Glass Menagerie," this extraordinary drama is the story of five unmarried sisters eking out their lives in a small village in Ireland in l936. Their spare existence is interrupted by brief, colorful bursts of music from the radio, their only link to the romance and hope of the world at large. Widely regarded as Brian Friel's masterpiece, this haunting play is a tribute to the spirit and valor of the past.</p>
+      </div>
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left treatment" src="images/galleries/index_mrgreen.jpg">
+        <h2 class="featurette-heading">Visiting Mr. Green</h2>
+        <p class="lead">Photo  Gallery</p>
+        <p>Mr. Green wanders into New York traffic and is almost hit by a car driven by Ross Gardiner. When the young man is given community service to help the recent widower we find ourselves at the start of a comedy/drama about two men who at first can't stand to be in the same room together. But as they get to know each other, they find some shaky common ground, and help to heal the old wounds they've both been hiding.</p>
+        <p><a class="btn btn-large btn-primary" href="#">Photo Gallery</a></p>
+      </div>
+      <hr class="featurette-divider">
+
+      <div class="row">
+        <div class="span4">
+          <h2>Meet the Lughnasa Cast</h2>
+          <img class="treatment" src="images/actors/awilson.jpg">
+          <h4>Ann Wilson</h4>
+          <p class="text-left">Ann is over the moon to be involved in one of her favorite memory plays of all time. And, to be directed by someone she loves and admires deeply makes it an extra-special treat. Ann has had the privilege of working for some great Atlanta area theatres including the Alliance, Horizon Theatre, Actor's Express, Theatrical Outfit, Georgia Ensemble, Essential Theatre, Theatre in the Square and Gainesville Theatre Alliance. She feels especially lucky and very happy to add Stage Door and the Mundy clan to her theatre family.</p>
+        </div>
+        <div class="span4">
+          <h2>Theater Classes For Children</h2>
+          <h4><a href="http://www.onceuponaballetatl.com/" target="_blank">ONCE UPON A BALLET</a> comes to STAGE DOOR PLAYERS.</h4>
+          <p class="text-left">Once Upon a Ballet &amp; Musical Theater&trade; offers unique dance and performing arts programs for children ages 2-14. From our Creative division to our Upper school classes, our mission is to foster the creative spirit in your child, by providing sound technical training in a nurturing environment. Handmade costumes, delicate props and timeless stories are an essential part of our Creative curriculum, while Classic ballets and Broadway musicals are the focus of our Upper school curriculum.</p>
+          <p class="text-left">What is your child's passion? Ballet! Tap! Acting! Singing! Once Upon a Ballet &amp; Musical Theater&trade; has it all. Contact Once Upon a Ballet &amp; Musical Theater&trade; at <a href="mailto:onceuponaballetatl@gmail.com">onceuponaballetatl@gmail.com</a> and ask about special Introductory Offers for Stage Door Players patrons!!</p>
+        </div>
+        <div class="span4">
+          <h2>Meet the Lughnasa Cast</h2>
+          <img class="treatment" src="images/actors/jharrison.jpg">
+          <h4>Ann Wilson</h4>
+          <p class="text-left">Jeremy studied theatre at the University of Illinois, Champaign-Urbana, and has been a working actor in Chicago, Los Angeles, and Atlanta. He is thrilled to be making his Stage Door Players debut with such an amazing ensemble. His stage credits include <em>Over the River and Through the Woods</em>, <em>The Summer House in April</em>, <em>The Rocky Horror Show</em>, <em>Moonchildren</em>, and <em>Stories Gone Wilde</em>.His television credits include The Game, Good Eats, and the Showtime series Homeland. Jeremy is represented by Houghton Talent, Inc. in Atlanta.</p>
+        </div>
+      </div>
+
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right treatment" src="images/index/placeholder.jpg">
+        <h2 class="featurette-heading">Once Upon A Matress</h2>
+        <p class="lead">July 12 through August 4, 2013<br />
+        Friday and Saturday @ 8:00pm, Sunday Matinees @ 2:30pm</p>
+        <p>Once upon a time, many moons ago in a far off place.....<br />
+        If you thought you knew the story of  "The Princess and The Pea," you may be in for a big surprise! Containing a score of wonderful songs, by turns hilarious and raucous, romantic and melodic, this twisted spin on the familiar classic will make sure you never look at fairy tales quite the same way again.</p>
+      </div>
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Stage Door Players &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/bootstrap-carousel.js"></script>
+    <script src="scripts/bootstrap-transition.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script src="scripts/holder/holder.js"></script>
+  </body>
+</html>
