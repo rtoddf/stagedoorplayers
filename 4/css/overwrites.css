@@ -55,17 +55,21 @@ h4.heading {
 }
 
 .hero-unit {
-	background-color: rgba(180, 44, 48, .15);
+	background-color: rgba(238, 216, 184, .15);
 	border: 2px solid #b42c30;
 	padding: 30px;
 }
 
 .hero-unit.treatment {
-	border: 2px solid #b42c30;
+	border: 2px solid #eed8b8;
 }
 
 .hero-unit h2 {
-	color: #b42c30;
+	color: #5e403a;
+}
+
+.hero-unit a {
+	color: #5e403a;
 }
 
 .hero-unit .credit {
@@ -180,6 +184,10 @@ h4.heading {
 		line-height: 20px;
 	}
 
+	.hero-unit {
+		padding: 20px;
+	}
+
 	h3 {
 		font-size: 18px;
 		line-height: 20px;
@@ -196,9 +204,9 @@ h4.heading {
 		margin: 0 0 15px 0;
 	}
 	.span3.cast {
-		width: 22%;
+		width: 20%;
 		float: left;
-		margin-right: 10px;
+		margin-right: 15px;
 	}
 }
 
