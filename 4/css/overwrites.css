@@ -32,6 +32,15 @@ h4.heading {
 	border-bottom: 1px solid #999;
 }
 
+.productions .cast, .homepage .cast {
+	margin: 0 8px 10px 8px;
+}
+
+.homepage .poster {
+	margin: 0 ;
+	text-align: center;
+}
+
 .staff h4.heading, .board h4.heading {
 	margin-bottom: 0;
 }
@@ -129,6 +138,12 @@ h4.heading {
 	text-align: center;
 }
 
+@media (min-width: 980px) and (max-width: 1024px) {
+	.productions .span1.cast, .homepage .cast {
+		margin: 0 8px 10px 8px;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
 	.content img {
 		width: 450px;
@@ -168,6 +183,12 @@ h4.heading {
 		float: left;
 		margin-right: 10px;
 	}
+
+	.productions .span1.cast, .homepage .span1.cast {
+		float: left;
+		width: 60px;
+		margin: 0 10px 10px 10px;
+	}
 }
 
 @media (max-width: 599px) {
@@ -175,6 +196,12 @@ h4.heading {
 		float: none;
 		width: 100%;
 		margin: 0 0 15px 0;
+	}
+
+	.productions .span1.cast, .homepage .span1.cast {
+		float: left;
+		width: 55px;
+		margin: 0 8px 10px 8px;
 	}
 }
 
