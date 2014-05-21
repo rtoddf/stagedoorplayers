@@ -260,7 +260,9 @@ h4.heading {
 	}
 }
 
-
+.preview h4, .preview .preview_author {
+	margin-bottom: 0;
+}
 
 
 
