@@ -264,6 +264,13 @@ h4.heading {
 	margin-bottom: 0;
 }
 
+.preview img {
+	width: 150px;
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+
 
 
 
