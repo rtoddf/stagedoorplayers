@@ -9,7 +9,6 @@ a {
 
 h1 {
 	padding-bottom: 5px;
-	border-bottom: 1px solid #999;
 	color: #b42c30;
 	font-size: 24px;
 }
@@ -29,7 +28,20 @@ h4 {
 
 h4.heading {
 	padding-bottom: 5px;
-	border-bottom: 1px solid #999;
+}
+
+.homepage h4.heading {
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.new-staff h5 {
+	margin: 10px 0 0;
+	font-size: 16px;
+}
+
+.new-staff p {
+	margin: 0;
 }
 
 .donate {
@@ -50,6 +62,11 @@ h4.heading {
 	margin: 0 ;
 	padding-left: 30px;
 	text-align: center;
+}
+
+.homepage .woodie-link {
+	display: inline-block;
+	padding-bottom: 10px;
 }
 
 .staff h4.heading, .board h4.heading {
@@ -123,16 +140,34 @@ h4.heading {
 	margin-bottom: 10px;
 }
 
-.cast p, .woodies p {
+.cast p,
+.woodies p {
 	text-align: center;
 	font-weight: bold;
 }
 
-.cast p.credit, .woodies p.credit {
+.cast .credit {
 	font-weight: normal;
 }
 
-.sponsor h4, .woodies h4 {
+/* woodies */
+.woodies h4 {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.woodies .credit {
+	font-weight: normal;
+}
+
+.woodies .award {
+	margin-bottom: 3px;
+	line-height: 16px;
+	font-weight: bold;
+}
+/* end woodies */
+
+.sponsor h4 {
 	text-align: center;
 }
 
