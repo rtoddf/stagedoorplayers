@@ -12,6 +12,10 @@ body {
 	background: @cream;
 }
 
+img {
+	width: 100%;
+}
+
 #index {
 	#hero {
 		position: relative;
@@ -38,6 +42,21 @@ body {
 	height: 40px;
 	background: @black;
 }
+
+/* cards */
+.card {
+	background: white;
+	border: 1px solid #999;
+
+	img {
+		border-bottom: 1px solid #999;
+	}
+
+	.info {
+		padding: 5px 10px;
+	}
+}
+
 
 @media (max-width: 2000px) {
 	#index {
