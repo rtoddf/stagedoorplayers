@@ -1,0 +1,188 @@
+@black: #000;
+
+@grey1: #333;
+@grey2: #666;
+@grey3: #999;
+@grey4: #ccc;
+
+@white: #fff;
+@cream: #f5f1e5;
+
+@branding1: #b42c30;
+@branding2: #58b6dd;
+
+// mixins
+.border-top-bottom(@stroke, @color) {
+	border-top: @stroke solid @color;
+	border-bottom: @stroke solid @color;	 
+}
+
+body {
+	padding-top: 0;
+	padding-bottom: 40px;
+	background: @white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: @branding1;
+	transition: color .3s ease;
+
+	&:hover {
+		color: @grey2;
+		text-decoration: none;
+	}
+}
+
+img {
+	width: 100%;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+#hero {
+	position: relative;
+	width: 100%;
+	height: 609px;
+	margin-bottom: 20px;
+	background: url('../images/hero/idoidoido.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	#hero-caption {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding: 10px 20px;
+		.border-top-bottom(1px, @black);
+		background: @white;
+		color: #000;
+		opacity: .8;
+
+		p:first-child {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+/* tiles */
+.tile {
+	margin-bottom: 20px;
+	border: 1px solid @grey3;
+
+	.capper {
+		padding: 5px 10px;
+		border-bottom: 1px solid @grey4;
+		background: rgba(180,44,48,.1);
+		font-size: 18px;
+	}
+
+	.art {
+		border-bottom: 1px solid @grey4;
+	}
+
+	.cap {
+		padding: 5px 10px;
+		border-bottom: 1px solid @grey4;
+		font-size: 18px;
+	}
+
+	.info {
+		padding: 10px;
+		background: rgba(180,44,48,.1);
+	}
+
+	&.no-info {
+		.cap {
+			font-size: 14px;
+		}
+	}
+
+	&.gallery {
+		border: 1px solid @branding2;
+
+		a {
+			color: @branding2;
+			transition: color .3s ease;
+
+			&:hover {
+				color: @grey2;
+				text-decoration: none;
+			}
+		}
+
+		.capper {
+			background: rgba(88,182,221,1);
+		}
+
+		.info {
+			background: rgba(88,182,221,.1);
+		}
+	}
+}
+
+.treatment {
+	border: none;
+	box-shadow: none;
+}
+
+@media (max-width: 2000px) {
+
+		#hero {
+			height: 1075px;
+		}
+
+}
+
+@media (max-width: 1600px) {
+	#hero {
+		height: 880px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#hero {
+		height: 1280px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+	#hero {
+		height: 830px;
+	}
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+	#hero {
+		height: 635px;
+	}
+}
+
+@media (max-width: 800px) {
+	#hero {
+		height: 465px;
+	}
+}
+
+@media (max-width: 600px) {
+	#hero {
+		height: 365px;
+	}
+}
+
+@media (max-width: 480px) {
+	#hero {
+		height: 200px;
+	}
+}
