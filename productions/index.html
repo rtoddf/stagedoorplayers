@@ -7,136 +7,142 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="../css/bootstrap.css" rel="stylesheet">
-		<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/overwrites.css" rel="stylesheet">
 	</head>
 
 	<body class="productions">
-
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="brand" href="../index.html">Stage Door Players</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="dropdown active">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="index.html">Our Season</a></li>
-									<li><a href="special_events.html">Special Events</a></li>
-									<li><a href="brochure_2014.html">Season Brochure</a></li>
-									<li><a href="woodies_2014.html">Woodies 2014</a></li>
-									<li><a href="woodies_2013.html">Woodies 2013</a></li>
-									<li><a href="woodies_2012.html">Woodies 2012</a></li>
-									<li><a href="woodies_2011.html">Woodies 2011</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../aboutus/index.html">About Us</a></li>
-									<li><a href="../aboutus/staff.html">Staff</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../galleries/index.html">Current Season</a></li>
-									<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
-									<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
-									<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
-									<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
-									<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
-									<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
-									<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
-								</ul>
-							</li>
-							<li><a href="../directions.html">Directions</a></li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../boxoffice/index.html">Tickets</a></li>
-									<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
-								</ul>
-							</li>
-							<li><a href="../sponsors.html">Sponsors</a></li>
-						</ul>
-					</div>
+					<a class="navbar-brand" href="../index.html">Stage Door Players</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown active">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="index.html">Our Season</a></li>
+								<li><a href="special_events.html">Special Events</a></li>
+								<li><a href="brochure_2014.html">Season Brochure</a></li>
+								<li><a href="woodies_2014.html">Woodies 2014</a></li>
+								<li><a href="woodies_2013.html">Woodies 2013</a></li>
+								<li><a href="woodies_2012.html">Woodies 2012</a></li>
+								<li><a href="woodies_2011.html">Woodies 2011</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../aboutus/index.html">About Us</a></li>
+								<li><a href="../aboutus/staff.html">Staff</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../galleries/index.html">Current Season</a></li>
+								<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
+								<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
+								<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
+								<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
+								<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
+								<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
+								<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../directions.html">Directions</a></li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../boxoffice/index.html">Tickets</a></li>
+								<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../sponsors.html">Sponsors</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<div class="container">
 			<div class="row">
-				<div class="span12 masthead">
+				<div class="col-md-12 masthead">
 					<img src="../images/logo.png" title="Stage Door Players" alt="Stage Door Players" />
 					<h2>Our 2014-2015 Season</h2>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="span12" style="margin-bottom: 20px;">
-					<img src="../images/productions/rabbit_hole.jpg" title="Rabbit Hole" alt="Rabbit Hole" class="treatment" style="float: right; margin-left: 20px;" />
+				<div class="col-md-12" style="margin-bottom: 20px;">
+					<img src="../images/productions/rabbit_hole.jpg" title="Rabbit Hole" alt="Rabbit Hole" class="treatment" style="width: auto;float: right; margin-left: 20px;" />
 					<h3>Rabbit Hole</h3>
 					<p>Becca and Howie Corbett have everything a family could want, until a life-shattering accident turns their world upside down and leaves the couple drifting perilously apart. This winner of the 2007 Pulitzer Prize charts their bittersweet search for comfort in the darkest of places and for a path that will lead them back into the light of day. </p>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>November 14 through December 7, 2014</li>
 					</ul>
 					<p class="credit">By David Lindsay-Abaire</p>
+					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
+				
 
-				<div class="span6 preview">
+				<div class="col-md-6 preview">
 					<img src="../images/productions/privatelives.jpg" title="Private Lives" alt="Private Lives" />
 					<h3>Private Lives</h3>
 					<p>A comedy of manners and marriage, ex-lovers Amanda Prynne and Elyot Chase find themselves both honeymooning with their new spouses at the same hotel in France, old resentments quickly fan the fires of an old flame. Always lively, Coward’s script is filled to the brim with clever barbs and witty retorts as Amanda and Elyot bounce back and forth between a state of passionate infatuation and ferocious hostility.</p>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>January 16 through February 8, 2015</li>
 					</ul>
 					<p class="credit">By Noel Coward</p>
 				</div>
-				<div class="span6 preview">
+				<div class="col-md-6 preview">
 					<img src="../images/productions/third.jpg" title="Rounding Third" alt="Rounding Third" />
 					<h3>Rounding Third</h3>
 					<p>Rounding Third is the tumultuous journey of two Little League coaches through an entire season, from their first tentative meeting to the climactic championship game. Don is the tough, blue-collar, win-at-all-costs veteran coach whose son is the star pitcher. Michael is a newcomer both to the town and to baseball who agrees to be Don's assistant because he wants a special activity with his son. Despite their differences, the two men battle over how to lead the team.</p>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>March 20 through April 12, 2015</li>
 					</ul>
 					<p class="credit">By Richard Dresser</p>
 				</div>
-				<div class="span6 preview">
+				<div class="col-md-6 preview">
 					<img src="../images/productions/sylvia.jpg" title="Sylvia" alt="Sylvia" />
 					<h3>Sylvia</h3>
 					<p>A modern romantic comedy about love, marriage, and a talking dog. Greg brings home a dog he found in the park, bearing only the name "Sylvia" on her name tag. A street-smart mixture of Lab and Poodle, Sylvia becomes a major bone of contention between husband and wife. The marriage is put in serious jeopardy until, after a series of hilarious and touching complications, Greg and Kate learn to compromise, and Sylvia becomes a valued part of their lives.</p>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>May 15 through June 7, 2015</li>
 					</ul>
 					<p class="credit">By A.R. Gurney</p>
 				</div>
-				<div class="span6 preview">
+				<div class="col-md-6 preview">
 					<img src="../images/productions/drood.jpg" title="The Mystery of Edwin Drood" alt="The Mystery of Edwin Drood" />
 					<h3>The Mystery of Edwin Drood</h3>
 					<p>This wildly warm-hearted theatrical experience kicks off when the Music Hall Royale  "puts on" its flamboyant rendition of an unfinished Dickens mystery. Our title character disappears mysteriously one stormy Christmas Eve - but has Edwin been murdered? The giddiness of this play-within-a-play allows the audience to vote on the solution as prelude to the most unusual and hilarious finale!</p>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>July 10 through August 2, 2015</li>
 					</ul>
 					<p class="credit">Music and Lyrics by Rupert Holmes</p>
 				</div>
 
 
-				<div class="span12" style="margin-bottom: 20px;">
+				<div class="col-md-12" style="margin-bottom: 20px;">
 					<h4>Closed</h4>
 					<hr>
-					<img src="../images/productions/idoidoido02.jpg" title="I Do, I Do, I Do" alt="I Do, I Do, I Do" class="treatment" style="float: right; margin-left: 20px;" />
+					<img src="../images/productions/idoidoido02.jpg" title="I Do, I Do, I Do" alt="I Do, I Do, I Do" class="treatment" style="width: auto;float: right; margin-left: 20px;" />
 					<h3>I Do, I Do, I Do</h3>
 					<p>Diana is beautiful, intelligent, and sweet natured. The three men in her life are Jamie, the much envied man to whom she is officially engaged; Tom, the attractive boyfriend of Jamie’s sister; and Geoff, the oldest friend who is to be best man. Diana’s insurmountable problem is that, during the course of the longest weekend of her life, she finds herself having promised marriage to all three!  Will she make up her mind in time for the big society wedding arranged in a month’s time? </p>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>September 19 through October 12, 2014</li>
 					</ul>
 					<p class="credit">By Robin Hawdon</p>
@@ -150,7 +156,6 @@
 
 		</div>
 		<script src="../scripts/lib/jquery.min.js"></script>
-		<script src="../scripts/bootstrap.min.js"></script>
-		<script src="../scripts/bootstrap-collapse.js"></script>
+		<script src="../scripts/lib/bootstrap.min.js"></script>
 	</body>
 </html>

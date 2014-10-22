@@ -7,96 +7,102 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="../css/bootstrap.css" rel="stylesheet">
-		<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/overwrites.css" rel="stylesheet">
 	</head>
 
 	<body>
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="brand" href="../index.html">Stage Door Players</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="dropdown active">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="index.html">Our Season</a></li>
-									<li><a href="special_events.html">Special Events</a></li>
-									<li><a href="brochure_2014.html">Season Brochure</a></li>
-									<li><a href="woodies_2014.html">Woodies 2014</a></li>
-									<li><a href="woodies_2013.html">Woodies 2013</a></li>
-									<li><a href="woodies_2012.html">Woodies 2012</a></li>
-									<li><a href="woodies_2011.html">Woodies 2011</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../aboutus/index.html">About Us</a></li>
-									<li><a href="../aboutus/staff.html">Staff</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../galleries/index.html">Current Season</a></li>
-									<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
-									<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
-									<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
-									<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
-									<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
-									<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
-									<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
-								</ul>
-							</li>
-							<li><a href="../directions.html">Directions</a></li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../boxoffice/index.html">Tickets</a></li>
-									<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
-								</ul>
-							</li>
-							<li><a href="../sponsors.html">Sponsors</a></li>
-						</ul>
-					</div>
+					<a class="navbar-brand" href="../index.html">Stage Door Players</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown active">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="index.html">Our Season</a></li>
+								<li><a href="special_events.html">Special Events</a></li>
+								<li><a href="brochure_2014.html">Season Brochure</a></li>
+								<li><a href="woodies_2014.html">Woodies 2014</a></li>
+								<li><a href="woodies_2013.html">Woodies 2013</a></li>
+								<li><a href="woodies_2012.html">Woodies 2012</a></li>
+								<li><a href="woodies_2011.html">Woodies 2011</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../aboutus/index.html">About Us</a></li>
+								<li><a href="../aboutus/staff.html">Staff</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../galleries/index.html">Current Season</a></li>
+								<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
+								<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
+								<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
+								<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
+								<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
+								<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
+								<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../directions.html">Directions</a></li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../boxoffice/index.html">Tickets</a></li>
+								<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../sponsors.html">Sponsors</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<div class="container">
 			<div class="row">
-				<div class="span12 masthead">
+				<div class="col-md-12 masthead">
 					<img src="../images/logo.png" title="Stage Door Players" alt="Stage Door Players" />
 					<h2>Woodie Award Winners 2010-2011</h2>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/farce.jpg" class="treatment" title="Unnecessary Farce" alt="Unnecessary Farce" />
 					<h4>Unnecessary Farce</h4>
 					<p class="credit">Best Ensemble Cast</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/six.jpg" class="treatment" title="Six Dance Lessons In Six Weeks" alt="Six Dance Lessons In Six Weeks" />
 					<h4>Six Dance Lessons In Six Weeks</h4>
 					<p class="credit">Best Show of the Season</p>
 				</div>		
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/kelly.jpg" class="treatment" title="Kelly Chapin Schmidt" alt="Kelly Chapin Schmidt" />
 					<h4>Kelly Chapin Schmidt</h4>
 					<p class="credit">Shayne Kohout Newcomer Award</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/robertj.jpg" class="treatment" title="Robert Egizio" alt="Robert Egizio" />
 					<h4>Robert J. Farley</h4>
 					<p class="credit">Best Direction</p>
@@ -105,25 +111,25 @@
 			</div>
 
 			<div class="row">
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/robert.jpg" class="treatment" title="Robert Egizio" alt="Robert Egizio" />
 					<h4>Robert Egizio</h4>
 					<p class="credit">Best Performance by a Lead Actor (Play)</p>
 					<p class="credit">Six Dance Lessons in Six Weeks</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/jackie.jpg" class="treatment" title="Jackie Prucha" alt="Jackie Prucha" />
 					<h4>Jackie Prucha</h4>
 					<p class="credit">Best Performance by a Lead Actress (Play)</p>
 					<p class="credit">Six Dance Lessons in Six Weeks</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/denise.jpg" class="treatment" title="Denise Arribas" alt="Denise Arribas" />
 					<h4>Denise Arribas</h4>
 					<p class="credit">Best Performance by a Lead Actress (Musical)</p>
 					<p class="credit">Bye Bye Birdie</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/bradley.jpg" class="treatment" title="Bradley Bergeron" alt="Bradley Bergeron" />
 					<h4>Bradley Bergeron</h4>
 					<p class="credit">Best Performance by a Lead Actor (Musical)</p>
@@ -132,25 +138,25 @@
 			</div>
 			
 			<div class="row">
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/jo.jpg" class="treatment" title="Jo Howarth" alt="Jo Howarth" />
 					<h4>Jo Howarth</h4>
 					<p class="credit">Best Performance by a Supporting Actress (Play)</p>
 					<p class="credit">Butterflies Are Free</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/larry.jpg" class="treatment" title="Larry Davis" alt="Larry Davis" />
 					<h4>Larry Davis</h4>
 					<p class="credit">Best Performance by a Supporting Actor (Play)</p>
 					<p class="credit">Unnecessary Farce</p>
 				</div>			
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/nick.jpg" class="treatment" title="Nick Morrett" alt="Nick Morrett" />
 					<h4>Nick Morrett</h4>
 					<p class="credit">Best Performance by a Supporting Actor (Musical)</p>
 					<p class="credit">Bye Bye Birdie</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/cathe.jpg" class="treatment" title="Cathe Hall Payne" alt="Cathe Hall Payne" />
 					<h4>Cathe Hall Payne</h4>
 					<p class="credit">Best Performance by a Supporting Actress (Musical)</p>
@@ -159,25 +165,25 @@
 			</div>
 
 			<div class="row">
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/ricardo.jpg" class="treatment" title="Ricardo Aponte" alt="Ricardo Aponte" />
 					<h4>Ricardo Aponte</h4>
 					<p class="credit">Best Choreography</p>
 					<p class="credit">Bye Bye Birdie</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/linda.jpg" class="treatment" title="Linda Uzelac" alt="Linda Uzelac" />
 					<h4>Linda Uzelac</h4>
 					<p class="credit">Best Musical Direction</p>
 					<p class="credit">A Grand Night For Singing</p>
 				</div>			
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/lighting.jpg" class="treatment" title="J.D. Williams" alt="J.D. Williams" />
 					<h4>J.D. Williams</h4>
 					<p class="credit">Best Lighting Design</p>
 					<p class="credit">Six Dance Lessons in Six Weeks</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/dan.jpg" class="treatment" title="Dan Bauman" alt="Dan Bauman" />
 					<h4>Dan Bauman</h4>
 					<p class="credit">Best Sound Design</p>
@@ -186,25 +192,25 @@
 			</div>
 
 			<div class="row">
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/jim.jpg" class="treatment" title="Jim Alford" alt="Jim Alford" />
 					<h4>Jim Alford</h4>
 					<p class="credit">Best Costume Design</p>
 					<p class="credit">A Grand Night For Singing</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/chuck.jpg" class="treatment" title="Chuck Welcome" alt="Chuck Welcome" />
 					<h4>Chuck Welcome</h4>
 					<p class="credit">Best Set Design</p>
 					<p class="credit">A Grand Night For Singing</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/hannah.jpg" class="treatment" title="Hannah Celeste Wilkinson" alt="Hannah Celeste Wilkinson" />
 					<h4>Hannah Celeste Wilkinson</h4>
 					<p class="credit">Best Performance by a Youth Actress (Musical)</p>
 					<p class="credit">Bye Bye Birdie</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/sam.jpg" class="treatment" title="Sam Lauten" alt="Sam Lauten" />
 					<h4>Sam Lauten</h4>
 					<p class="credit">Best Performance by a Youth Actor (Musical)</p>
@@ -213,7 +219,7 @@
 			</div>
 
 			<div class="row">
-				<div class="span4 woodies">
+				<div class="col-md-4 woodies">
 					<h4>Excellence in Stage Management</h4>
 					<p class="credit">Hayley Brotherton</p>
 					<p class="credit">Leslye Kahn</p>
@@ -222,12 +228,12 @@
 					<p class="credit">Hampton Whatley</p>
 					<p class="credit">Pam Cassiday</p>
 				</div>
-				<div class="span3 woodies">
+				<div class="col-md-3 woodies">
 					<img src="../images/woodies/2011/linda.jpg" class="treatment" title="Linda Uzelac" alt="Linda Uzelac" />
 					<h4>Linda Uzelac</h4>
 					<p class="credit">Directors Award</p>
 				</div>
-				<div class="span4 woodies">
+				<div class="col-md-4 woodies">
 					<h4>In Appreciation</h4>
 					<p class="credit">Celia Gardner/Travelfaire</p>
 					<p class="credit">Alison Norris/Alison's Restaurant</p>
@@ -246,7 +252,6 @@
 
 		</div>
 		<script src="../scripts/lib/jquery.min.js"></script>
-		<script src="../scripts/bootstrap.min.js"></script>
-		<script src="../scripts/bootstrap-collapse.js"></script>
+		<script src="../scripts/lib/bootstrap.min.js"></script>
 	</body>
 </html>

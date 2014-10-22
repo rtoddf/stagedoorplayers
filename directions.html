@@ -7,83 +7,90 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/overwrites.css" rel="stylesheet">
 	</head>
 
 	<body>
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="brand" href="index.html">Stage Door Players</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="productions/index.html">Our Season</a></li>
-									<li><a href="productions/special_events.html">Special Events</a></li>
-									<li><a href="productions/brochure_2014.html">Season Brochure</a></li>
-									<li><a href="productions/woodies_2014.html">Woodies 2014</a></li>
-									<li><a href="productions/woodies_2013.html">Woodies 2013</a></li>
-									<li><a href="productions/woodies_2012.html">Woodies 2012</a></li>
-									<li><a href="productions/woodies_2011.html">Woodies 2011</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="aboutus/index.html">About Us</a></li>
-									<li><a href="aboutus/staff.html">Staff</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="galleries/index.html">Current Season</a></li>
-									<li><a href="galleries/2014.html">2013-2014 Season</a></li>
-									<li><a href="galleries/2013.html">2012-2013 Season</a></li>
-									<li><a href="galleries/2012.html">2011-2012 Season</a></li>
-									<li><a href="galleries/2011.html">2010-2011 Season</a></li>
-									<li><a href="galleries/2010.html">2009-2010 Season</a></li>
-									<li><a href="galleries/2009.html">2008-2009 Season</a></li>
-									<li><a href="galleries/2008.html">2007-2008 Season</a></li>
-								</ul>
-							</li>
-							<li class="active"><a href="directions.html">Directions</a></li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="boxoffice/index.html">Tickets</a></li>
-									<li><a href="boxoffice/subscriptions.html">Subscriptions</a></li>
-								</ul>
-							</li>
-							<li><a href="sponsors.html">Sponsors</a></li>
-						</ul>
-					</div>
+					<a class="navbar-brand" href="index.html">Stage Door Players</a>
+				</div>
+
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="productions/index.html">Our Season</a></li>
+								<li><a href="productions/special_events.html">Special Events</a></li>
+								<li><a href="productions/brochure_2014.html">Season Brochure</a></li>
+								<li><a href="productions/woodies_2014.html">Woodies 2014</a></li>
+								<li><a href="productions/woodies_2013.html">Woodies 2013</a></li>
+								<li><a href="productions/woodies_2012.html">Woodies 2012</a></li>
+								<li><a href="productions/woodies_2011.html">Woodies 2011</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="aboutus/index.html">About Us</a></li>
+								<li><a href="aboutus/staff.html">Staff</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="galleries/index.html">Current Season</a></li>
+								<li><a href="galleries/2014.html">2013-2014 Season</a></li>
+								<li><a href="galleries/2013.html">2012-2013 Season</a></li>
+								<li><a href="galleries/2012.html">2011-2012 Season</a></li>
+								<li><a href="galleries/2011.html">2010-2011 Season</a></li>
+								<li><a href="galleries/2010.html">2009-2010 Season</a></li>
+								<li><a href="galleries/2009.html">2008-2009 Season</a></li>
+								<li><a href="galleries/2008.html">2007-2008 Season</a></li>
+							</ul>
+						</li>
+
+						<li class="active"><a href="directions.html">Directions</a></li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="boxoffice/index.html">Tickets</a></li>
+								<li><a href="boxoffice/subscriptions.html">Subscriptions</a></li>
+							</ul>
+						</li>
+
+						<li><a href="sponsors.html">Sponsors</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<div class="container">
 			<div class="row">
-				<div class="span12 masthead">
+				<div class="col-md-12 masthead">
 					<img src="images/logo.png" title="Stage Door Players" alt="Stage Door Players" />
 					<h2>Stage Door Players Directions</h2>
 					<p>Stage Door Players is located at 5339 Chamblee Dunwoody Road approx one block South of Mt Vernon Rd and Chamblee Dunwoody Road in the North Dekalb Cultural Arts Center.</p>    
 				</div>
 			</div>
 			<div class="row">
-				<div class="span8">
+				<div class="col-md-8">
 					<h4>Coming from West</h4>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>Take I-285 East to Exit 29 - Ashford Dunwoody Rd</li>
 						<li>Turn Left onto Ashford Dunwoody and continue past Perimeter Mall</li>
 						<li>Turn Right at Ashford Center Parkway and continue to the next light</li>
@@ -91,46 +98,46 @@
 						<li>Take the 2nd driveway on your Right into the North Dekalb Cultural Center</li>
 					</ul>
 					<h4>Coming from East</h4>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>Take I-285 West to Exit 29Ashford Dunwoody Rd</li>
 						<li>Turn Right onto Ashford Dunwoody and continue past Perimeter Mall</li>
 						<li>Take a Right at Ashford Center Parkway and continue to the next light. Turn Left onto Chamblee Dunwoody Road</li>
 						<li>Take the 2nd driveway on your Right into the North Dekalb Cultural Center</li>
 					</ul>
 					<h4>Coming from South</h4>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>Head North on 400 to Exit 5a (Dunwoody)</li>
 						<li>Merge onto Abernathy Rd and turn left at Mt Vernon Rd</li>
 						<li>Continue a few miles to Chamblee Dunwoody Road and turn right</li>
 						<li>We're on the left in the North Dekalb Cultural Center</li>
 					</ul>
 					<h4>Coming from North</h4>
-					<ul class="unstyled">
+					<ul class="list-unstyled">
 						<li>Head South on 400 to Exit 6 (Northridge Rd) </li>
 						<li>Turn Right off the exit (back over Rt 400) and take a right at the 4-way stop sign onto Roberts Drive</li>
 						<li>This road changes names to Chamblee Dunwoody Road. Continue a few miles</li>
 						<li>We're a block past Mt Vernon Rd on the Left in the North Dekalb Cultural Center</li>
 					</ul>
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<img src="images/directions.jpg" alt="directions" title="directions" />
 				</div>
 			</div>
 
 <!-- 			<div class="row">
-				<div class="span4 cast_bio">
+				<div class="col-md-4 cast_bio">
 					<h4 class="heading">Godspell Cast</h4>
 					<img src="images/actors/ford_dan.jpg" class="treatment" title="Dan Ford" alt="Dan Ford" />
 					<h5>Dan Ford</h5>
 					<p>Dan Ford – is delighted to make his Stage Door debut. He holds a B.F.A. in Musical Theatre from Webster University(St. Louis, MO). You might have seen him most recently in Hamlet – GA Shakespeare; Les Miserable – Aurora; Joseph &amp; Anything Goes – Atlanta Lyric; Assassin’s &amp; Little Women Fabrefaction. Next up is Mary Poppins - Aurora. He would like to thank Robert and Brian for this incredible opportunity and most of all his Family for all their love and support.</p>
 				</div>
-				<div class="span4 cast_bio">
+				<div class="col-md-4 cast_bio">
 					<h4 class="heading">Godspell Cast</h4>
 					<img src="images/actors/garza_randi.jpg" class="treatment" title="Randi Garza" alt="Randi Garza" />
 					<h5>Randi Garza</h5>
 					<p>Randi Garza is excited to be making her Stage Door Players debut! Her recent credits include Aurora's Christmas Canteen, Urinetown (Little Becky), Tarzan (Jane), Little Shop of Horrors (Audrey), The Wild Party (Kate). Huge thanks to her Mom, four amazing siblings, Drew, Caroline and Skye! And thank you for supporting the arts!/p>
 				</div>
-				<div class="span4 cast_bio">
+				<div class="col-md-4 cast_bio">
 					<h4 class="heading">Godspell Cast</h4>
 					<img src="images/actors/burns_daniel.jpg" class="treatment" title="Daniel Burns" alt="Daniel Burns" />
 					<h5>Daniel Burns</h5>
@@ -139,17 +146,17 @@
 			</div> -->
 
 			<div class="row">
-				<div class="span4">
+				<div class="col-md-4">
 					<h4 class="heading">Photo Gallery</h4>
 					<a href="galleries/index.html?gameafoot" id="gameafoot"><img src="images/galleries/gameafoot/index.jpg" class="treatment" alt="The Game's Afoot" title="The Game's Afoot" /></a>
 					<h4><a href="javascript:void(0)" id="gameafoot">The Game's Afoot</a></h4>
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<h4 class="heading">Photo Gallery</h4>
 					<a href="galleries/2013.html?loveperfectchange"><img src="images/galleries/loveperfectchange/index.jpg" class="treatment" alt="I Love You, You're Perfect, Now Change" title="I Love You, You're Perfect, Now Change" /></a>
 					<h4><a href="galleries/2013.html?loveperfectchange">I Love You, You're Perfect, Now Change</a></h4>
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<h4 class="heading">Photo Gallery</h4>
 					<a href="galleries/2013.html?wonderfullife"><img src="images/galleries/wonderfullife/index.jpg" class="treatment" alt="It's A Wonderful Life" title="It's A Wonderful Life" /></a>
 					<h4><a href="galleries/2013.html?wonderfullife">It's A Wonderful Life</a></h4>
@@ -157,7 +164,7 @@
 			</div>
 			<!--
 			<div class="row">
-				<div class="span8">
+				<div class="col-md-8">
 					<h2>Interactive Google Map</h2>
 					<p>Coming Soon</p>    
 				</div>
@@ -171,7 +178,6 @@
 
 		</div>
 		<script src="scripts/lib/jquery.min.js"></script>
-		<script src="scripts/bootstrap.min.js"></script>
-		<script src="scripts/bootstrap-collapse.js"></script>
+		<script src="scripts/lib/bootstrap.min.js"></script>
 	</body>
 </html>
