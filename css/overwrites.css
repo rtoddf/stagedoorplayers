@@ -11,6 +11,20 @@ img {
 	width: 100%;
 }
 
+.carousel img {
+	width: auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+
+.glyphicon.glyphicon-chevron-left,
+.glyphicon.glyphicon-chevron-right {
+	font-size: 56px
+}
+
 h1 {
 	padding-bottom: 5px;
 	color: #b42c30;

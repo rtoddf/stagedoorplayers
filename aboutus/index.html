@@ -7,105 +7,113 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="../css/bootstrap.css" rel="stylesheet">
-		<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/overwrites.css" rel="stylesheet">
 	</head>
 
 	<body>
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="brand" href="../index.html">Stage Door Players</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../productions/index.html">Our Season</a></li>
-									<li><a href="../productions/special_events.html">Special Events</a></li>
-									<li><a href="../productions/brochure_2014.html">Season Brochure</a></li>
-									<li><a href="../productions/woodies_2014.html">Woodies 2014</a></li>
-									<li><a href="../productions/woodies_2013.html">Woodies 2013</a></li>
-									<li><a href="../productions/woodies_2012.html">Woodies 2012</a></li>
-									<li><a href="../productions/woodies_2011.html">Woodies 2011</a></li>
-								</ul>
-							</li>
-							<li class="dropdown active">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="index.html">About Us</a></li>
-									<li><a href="staff.html">Staff</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../galleries/index.html">Current Season</a></li>
-									<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
-									<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
-									<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
-									<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
-									<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
-									<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
-									<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
-								</ul>
-							</li>
-							<li><a href="../directions.html">Directions</a></li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../boxoffice/index.html">Tickets</a></li>
-									<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
-								</ul>
-							</li>
-							<li><a href="../sponsors.html">Sponsors</a></li>
-						</ul>
-					</div>
+					<a class="navbar-brand" href="../index.html">Stage Door Players</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../productions/index.html">Our Season</a></li>
+								<li><a href="../productions/special_events.html">Special Events</a></li>
+								<li><a href="../productions/brochure_2014.html">Season Brochure</a></li>
+								<li><a href="../productions/woodies_2014.html">Woodies 2014</a></li>
+								<li><a href="../productions/woodies_2013.html">Woodies 2013</a></li>
+								<li><a href="../productions/woodies_2012.html">Woodies 2012</a></li>
+								<li><a href="../productions/woodies_2011.html">Woodies 2011</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown active">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="index.html">About Us</a></li>
+								<li><a href="staff.html">Staff</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../galleries/index.html">Current Season</a></li>
+								<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
+								<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
+								<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
+								<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
+								<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
+								<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
+								<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../directions.html">Directions</a></li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../boxoffice/index.html">Tickets</a></li>
+								<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../sponsors.html">Sponsors</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<div class="container">
 			<div class="row">
-				<div class="span12 masthead">
+				<div class="col-md-12 masthead">
 					<img src="../images/logo.png" title="Stage Door Players" alt="Stage Door Players" />
 					<h2>About Stage Door Players</h2>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="span12 content">
-					<img src="../images/galleries/sametime/index.jpg" class="pull-right treatment" alt="Same Time, Next Year" title="Same Time, Next Year" />
+				<div class="col-md-6 content">
 					<p>Stage Door Players was founded in 1974 as a Community Improvement Project of the Dunwoody Woman&rsquo;s Club.  The community theatre performed in various locations until 1988, when a permanent home was realized in the North DeKalb Cultural Center.  </p>
                     <p>Fast forward to 2006.  Dunwoody is the major axis of North Atlanta.  It is a hub of industry, business, shopping, great restaurants, and is a thriving cultural and artistic center.  Stage Door Players has grown and evolved with its community.  Today Stage Door Players is a fully professional theatre, producing a full season of popular, compelling and entertaining works.  </p>
                     <p>This transition, completed in 2004, has made Stage Door Players a successful player in the Atlanta theatre scene.  Hired in 2004 as part-time Artistic Director, Robert Egizio became the full-time director in 2005.  His professionalism, creativity and reputation in Atlanta&rsquo;s theatre community has brought Stage Door Players to a new level of recognition and brought new audiences to its doors, and has brought a new level of creativity as well as new talent to the company.</p>
                     <p>Stage Door Players produces a full season of professional theatre, the Stage Door Canteen cabaret series, and launched Stage Door Jr. in February 2006, a special series of Saturday productions for children.  These shows are both educational and entertaining for young audiences and their adult guests.</p>
                     <p>Stage Door Players is dedicated to bringing a professional level of live theatre to the Greater Metropolitan Atlanta area.  We will always place emphasis on the quality and professionalism of our productions, while at the same time continue to educate and expand the theatrical knowledge and experience of both our audiences and our talent.  We are committed to serving the entire community and to continually developing new theatre-going audiences.</p>
 				</div>
+				<div class="col-md-6 content">
+					<img src="../images/galleries/sametime/index.jpg" class="pull-right treatment" alt="Same Time, Next Year" title="Same Time, Next Year" />
+				</div>
 			</div>
 
 			<!--
 			<div class="row">
-				<div class="span4 cast_bio">
+				<div class="col-md-4 cast_bio">
 					<h4 class="heading">I Do, I Do, I Do Cast</h4>
 					<img src="../images/actors/halicks_sarah.jpg" class="treatment" title="Sarah Newby Halicks" alt="Sarah Newby Halicks" />
 					<h5>Sarah Newby Halicks</h5>
 					<p>Sarah Newby Halicks is thrilled to be joining Stage Door Players for the first time! She graduated from the University of Georgia in 2013 and recently finished her apprenticeship at the Shakespeare Tavern. Previous credits include <em>Othello</em> and <em>Romeo &amp; Juliet</em> with ASC, and <em>Steel Magnolias</em> at Onstage Atlanta. Thanks to Robert for this opportunity. Love to family and friends!</p>
 				</div>
-				<div class="span4 cast_bio">
+				<div class="col-md-4 cast_bio">
 					<h4 class="heading">I Do, I Do, I Do Cast</h4>
 					<img src="../images/actors/stevenson_holly.jpg" class="treatment" title="Holly Stevenson" alt="Holly Stevenson" />
 					<h5>Holly Stevenson</h5>
 					<p>Holly is thrilled to be returning to the Stage Door stage. Past shows include <em>The Games Afoot</em> and <em>Spreading It Around</em> (2009 Woodie Award for Best Actress). She is a recipient of the 2012 MAT Award (Best Supporting Actress) for <em>The Sleeping Country</em> (Essential Theatre) and recent performances include <em>FreeFall</em> (Theatre Emory) and <em>The New Electric Ballroom</em> (Arís). Catch her on TV in Bloodlands: Death on the Range.  Next up, The Elephant Man (Georgia Ensemble Theatre). Love and gratitude to J and thanks for supporting live theatre.</p>
 				</div>
-				<div class="span4 cast_bio">
+				<div class="col-md-4 cast_bio">
 					<h4 class="heading">I Do, I Do, I Do Cast</h4>
 					<img src="../images/actors/placeholder.jpg" class="treatment" title="Benjamyn Toler" alt="Benjamyn Toler" />
 					<h5>Benjamyn Toler</h5>
@@ -115,17 +123,17 @@
 		-->
 
 			<div class="row">
-				<div class="span4">
+				<div class="col-md-4">
 					<h4 class="heading">Photo Gallery</h4>
 					<a href="../galleries/2008.html?cocktail"><img src="../images/galleries/cocktail/index.jpg" class="treatment" alt="The Cocktail Hour" title="The Cocktail Hour" /></a>
 					<h4><a href="../galleries/2008.html?cocktail">The Cocktail Hour</a></h4>
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<h4 class="heading">Photo Gallery</h4>
 					<a href="../galleries/2013.html?mrgreen"><img src="../images/galleries/mrgreen/index.jpg" class="treatment" alt="Visiting Mr. Green" title="Visiting Mr. Green" /></a>
 					<h4><a href="../galleries/2008.html?mrgreen">Visiting Mr. Green</a></h4>
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<h4 class="heading">Photo Gallery</h4>
 					<a href="../galleries/2013.html?outoforder"><img src="../images/galleries/outoforder/index.jpg" class="treatment" alt="Out of Order" title="Out of Order" /></a>
 					<h4><a href="../galleries/2013.html?outoforder">Out of Order</a></h4>
@@ -139,7 +147,6 @@
 
 		</div>
 		<script src="../scripts/lib/jquery.min.js"></script>
-		<script src="../scripts/bootstrap.min.js"></script>
-		<script src="../scripts/bootstrap-collapse.js"></script>
+		<script src="../scripts/lib/bootstrap.min.js"></script>
 	</body>
 </html>

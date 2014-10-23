@@ -7,81 +7,87 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="../css/bootstrap.css" rel="stylesheet">
-		<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/overwrites.css" rel="stylesheet">
 	</head>
 
 	<body>
 
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="brand" href="../index.html">Stage Door Players</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../productions/index.html">Our Season</a></li>
-									<li><a href="../productions/special_events.html">Special Events</a></li>
-									<li><a href="../productions/brochure_2014.html">Season Brochure</a></li>
-									<li><a href="../productions/woodies_2014.html">Woodies 2014</a></li>
-									<li><a href="../productions/woodies_2013.html">Woodies 2013</a></li>
-									<li><a href="../productions/woodies_2012.html">Woodies 2012</a></li>
-									<li><a href="../productions/woodies_2011.html">Woodies 2011</a></li>
-								</ul>
-							</li>
-							<li class="dropdown active">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="index.html">About Us</a></li>
-									<li><a href="staff.html">Staff</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../galleries/index.html">Current Season</a></li>
-									<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
-									<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
-									<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
-									<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
-									<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
-									<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
-									<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
-								</ul>
-							</li>
-							<li><a href="../directions.html">Directions</a></li>
-							<li class="dropdown">
-								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="../boxoffice/index.html">Tickets</a></li>
-									<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
-								</ul>
-							</li>
-							<li><a href="../sponsors.html">Sponsors</a></li>
-						</ul>
-					</div>
+					<a class="navbar-brand" href="../index.html">Stage Door Players</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Productions <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../productions/index.html">Our Season</a></li>
+								<li><a href="../productions/special_events.html">Special Events</a></li>
+								<li><a href="../productions/brochure_2014.html">Season Brochure</a></li>
+								<li><a href="../productions/woodies_2014.html">Woodies 2014</a></li>
+								<li><a href="../productions/woodies_2013.html">Woodies 2013</a></li>
+								<li><a href="../productions/woodies_2012.html">Woodies 2012</a></li>
+								<li><a href="../productions/woodies_2011.html">Woodies 2011</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown active">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">About the Theatre <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="index.html">About Us</a></li>
+								<li><a href="staff.html">Staff</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Galleries <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../galleries/index.html">Current Season</a></li>
+								<li><a href="../galleries/2014.html">2013-2014 Season</a></li>
+								<li><a href="../galleries/2013.html">2012-2013 Season</a></li>
+								<li><a href="../galleries/2012.html">2011-2012 Season</a></li>
+								<li><a href="../galleries/2011.html">2010-2011 Season</a></li>
+								<li><a href="../galleries/2010.html">2009-2010 Season</a></li>
+								<li><a href="../galleries/2009.html">2008-2009 Season</a></li>
+								<li><a href="../galleries/2008.html">2007-2008 Season</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../directions.html">Directions</a></li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Box Office <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../boxoffice/index.html">Tickets</a></li>
+								<li><a href="../boxoffice/subscriptions.html">Subscriptions</a></li>
+							</ul>
+						</li>
+
+						<li><a href="../sponsors.html">Sponsors</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<div class="container">
 			<div class="row">
-				<div class="span12 masthead">
+				<div class="col-md-12 masthead">
 					<img src="../images/logo.png" title="Stage Door Players" alt="Stage Door Players" />
 					<h2>Stage Door Players Staff</h2>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">Robert Egizio</h4>
 					<p>Producing Artistic Director</p>
 					<img src="../images/aboutus/egizio_robert.jpg" class="pull-right treatment" alt="Robert Egizio" title="Robert Egizio" />
@@ -93,7 +99,7 @@
 					<p>As Stage Door Players begins its 40th Anniversary Season, Robert would like to take this opportunity to thank the Staff, Board of Directors, Season Subscribers, community partners, volunteers, artists, audience members, and sponsors for allowing him to do what he loves so very much.</p>
 					<div class="clear"></div>
 				</div>
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">George Deavours</h4>
 					<p>Wig Designer in Residence</p>
 					<img src="../images/aboutus/deavours_george.jpg" class="pull-right treatment" alt="George Deavours" title="George Deavours" />
@@ -106,14 +112,14 @@
 			</div>
 
 			<div class="row">
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">Rial Ellsworth</h4>
 					<p>Sound Designer in Residence</p>
 					<img src="../images/aboutus/ellsworth_rial.jpg" class="pull-right treatment" alt="Rial Ellsworth" title="Rial Ellsworth" />
 					<p>Whenever he is not on stage, Rial enjoys being part of the incredible production team here at Stage Door. Being a child of the sixties, he has always been fascinated with the effect music and sound have on human emotions. His background includes experience as a broadcaster, audio engineer and theatrical sound designer. His first job in radio came when he was just 14 years old. There he was introduced to the basics of “old school” analog sound manipulation:  reel-to-reel recorders, a razor blade and splicing tape. In later years he and his wife Kathy formed a sound company which provided live sound reinforcement for everything from orchestras to heavy metal bands in venues ranging from strip clubs to civic auditoriums. The technology has changed dramatically over the years, but the joy of seeing how sound touches an audience is still very much in his heart. He hopes you will enjoy listening to the show as much as you enjoy seeing it!</p>
 					<div class="clear"></div>
 				</div>
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">Jane Kroessig</h4>
 					<p>Wardrobe Designer in Residence</p>
 					<img src="../images/aboutus/kroessig_jane.jpg" class="pull-right treatment" alt="Jane Kroessig" title="Jane Kroessig" />
@@ -124,7 +130,7 @@
 			</div>
 
 			<div class="row">
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">Charles Welcome</h4>
 					<p>Set Designer/Scenic Artist in Residence</p>
 					<img src="../images/aboutus/welcome_chuck.jpg" class="pull-right treatment" alt="Charles Welcome" title="Charles Welcome" />
@@ -133,7 +139,7 @@
 					<p>Chuck has a background in art, interior design and marketing and by day he works as Regional Director for Upscale Showplaces Inc, staging, showcasing and managing vacant homes for sale in the Atlanta Metro. Stage Door Players has been his home away from home for 10 years now and counting and thrilled to be a part of SDP’s growth and continues to strive to create the best possible sets for our audiences and the talented people who come to play here!</p>
 					<div class="clear"></div>
 				</div>
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">Hampton Whatley</h4>
 					<p>Production Manager</p>
 					<img src="../images/aboutus/whatley_hampton.jpg" class="pull-right treatment" alt="Hampton Whatley" title="Hampton Whatley" />
@@ -145,7 +151,7 @@
 			</div>
 
 			<div class="row">
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">John David Williams</h4>
 					<p>Lighting Designer in Residence</p>
 					<img src="../images/aboutus/williams_john_david.jpg" class="pull-right treatment" alt="John David Williams" title="John David Williams" />
@@ -154,7 +160,7 @@
 					<p>Also a percussionist, JD has played in the pit for several shows here at SDP. He has been seen and heard performing throughout the Southeastern US in major malls, parades and wedding receptions from Charleston, SC to Jackson, MS with The Seed &amp; Feed Marching Abominable. He also works with direct marketing databases and is "an expert" in arcane USPS Postal Regulations.</p>
 					<div class="clear"></div>
 				</div>
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">Jacob York</h4>
 					<p>Artistic Associate</p>
 					<img src="../images/aboutus/york_jacob.jpg" class="pull-right treatment" alt="Jacob York" title="Jacob York" />
@@ -163,7 +169,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">Michael Magursky</h4>
 					<p>Board President</p>
 					<img src="../images/aboutus/magursky_michael.jpg" class="pull-right treatment" alt="Michael Magursky" title="Michael Magursky" />
@@ -174,7 +180,7 @@
 					<p>When not pushing keys on a light board, hanging from a ladder or slinging Mardi Gras beads, Michael is a dentist with Peachtree Suwanee Dental Associates.</p>
 					<div class="clear"></div>
 				</div>
-				<div class="span6 staff">
+				<div class="col-md-6 staff">
 					<h4 class="heading">KICK Strategy, LLC</h4>
 					<p>Marketing</p>
 					<img src="../images/aboutus/kick.jpg" class="pull-right treatment" alt="KICK Strategy" title="KICK Strategy" />
@@ -190,7 +196,6 @@
 
 		</div>
 		<script src="../scripts/lib/jquery.min.js"></script>
-		<script src="../scripts/bootstrap.min.js"></script>
-		<script src="../scripts/bootstrap-collapse.js"></script>
+		<script src="../scripts/lib/bootstrap.min.js"></script>
 	</body>
 </html>
