@@ -1,16 +1,3 @@
-body {
-	padding-top: 60px;
-	padding-bottom: 40px;
-}
-
-a {
-	color: #b42c30;
-}
-
-img {
-	width: 100%;
-}
-
 .carousel img {
 	width: auto;
 }
@@ -23,28 +10,6 @@ img {
 .glyphicon.glyphicon-chevron-left,
 .glyphicon.glyphicon-chevron-right {
 	font-size: 56px
-}
-
-h1 {
-	padding-bottom: 5px;
-	color: #b42c30;
-	font-size: 24px;
-}
-
-h2 {
-	font-size: 24px;
-	line-height: 28px;
-	margin-bottom: 5px;
-	color: #b42c30;
-}
-
-h3 {
-	color: #b42c30;
-	line-height: 30px;
-}
-
-h4 {
-	color: #b42c30;
 }
 
 h4.heading {
@@ -72,10 +37,6 @@ h4.heading {
 
 .new-staff p {
 	margin: 0;
-}
-
-.donate {
-/*	text-align: center*/
 }
 
 .cast_bio img {
@@ -121,7 +82,7 @@ h4.heading {
 	clear: both;
 }
 
-.hero-unit {
+/*.hero-unit {
 	background-color: rgba(238, 216, 184, .15);
 	border: 2px solid #b42c30;
 	padding: 30px;
@@ -144,18 +105,13 @@ h4.heading {
 	font-size: 14px;
 	line-height: 16px;
 	font-style: italic;
-}
+}*/
 
 .credit {
 	margin-bottom: 0;
 	line-height: 16px;
 	font-weight: normal;
 	font-style: italic;
-}
-
-.treatment {
-	border: 1px solid rgba(0,0,0,.5);
-	box-shadow: 2px 2px 2px rgba(0,0,0,.5)
 }
 
 .content img {
@@ -183,23 +139,6 @@ h4.heading {
 .cast .credit {
 	font-weight: normal;
 }
-
-/* woodies */
-.woodies h4 {
-	margin-bottom: 5px;
-	text-align: center;
-}
-
-.woodies .credit {
-	font-weight: normal;
-}
-
-.woodies .award {
-	margin-bottom: 3px;
-	line-height: 16px;
-	font-weight: bold;
-}
-/* end woodies */
 
 .sponsor h4 {
 	text-align: center;
@@ -331,12 +270,6 @@ h4.heading {
 
 .preview h4, .preview .preview_author {
 	margin-bottom: 0;
-}
-
-.preview img {
-	width: 150px;
-	float: right;
-	margin: 0 0 10px 10px;
 }
 
 
