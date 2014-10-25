@@ -71,15 +71,160 @@ img {
 	margin-left: 10px;
 }
 
+.teaser-md {
+	width: 250px;
+	margin-left: 20px;
+}
+
 .woodies {
 	img {
 		margin: 10px 0;
 	}
 }
 
-.homepage, .productions {
+.homepage, .productions, .aboutus, .boxoffice {
+	.col-md-3,
 	.col-md-4,
 	.col-md-6 {
 		margin-bottom: 20px;
+	}
+}
+
+.masthead img {
+	float: left;
+	width: 150px;
+	padding-right: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-right: 1px solid #ccc;
+}
+
+
+// carousel styles
+
+.carousel img {
+	width: auto;
+
+	.carousel-control.left,
+	.carousel-control.right {
+		background-image: none;
+	}
+
+	.glyphicon.glyphicon-chevron-left,
+	.glyphicon.glyphicon-chevron-right {
+		font-size: 56px
+	}
+}
+
+// media queries
+
+@media (min-width: 980px) and (max-width: 1024px) {
+	.productions .span1.cast, .homepage .cast {
+		margin: 0 8px 10px 8px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.content img {
+		width: 450px;
+		margin: 0 0 5px 15px;
+	}
+
+	.staff img {
+		width: 150px;
+		margin: 0 0 10px 10px;
+	}
+
+	.board img {
+		width: 100px;
+		margin: 0 0 10px 10px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.content img {
+		width: 400px;
+		margin: 0 0 10px 15px;
+	}
+
+	.staff img {
+		width: 150px;
+		margin: 0 0 10px 10px;
+	}
+
+	.board img {
+		width: 150px;
+		margin: 0 0 10px 10px;
+	}
+
+	.span3.cast {
+		width: 23%;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.productions .span1.cast, .homepage .span1.cast {
+		float: left;
+		width: 60px;
+		margin: 0 10px 10px 10px;
+	}
+
+	.productions .span2.cast, .homepage .span2.cast {
+		float: left;
+		width: 60px;
+		margin: 0 10px 10px 10px;
+	}
+}
+
+@media (max-width: 599px) {
+	.content img {
+		float: none;
+		width: 100%;
+		margin: 0 0 15px 0;
+	}
+
+	.productions .span1.cast, .homepage .span1.cast {
+		float: left;
+		width: 55px;
+		margin: 0 8px 10px 8px;
+	}
+
+	.productions .span2.cast, .homepage .span2.cast {
+		float: left;
+		width: 60px;
+		margin: 0 10px 10px 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.hero-unit h2 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.hero-unit {
+		padding: 20px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.content img {
+		float: none;
+		width: 100%;
+		margin: 0 0 15px 0;
+	}
+	.span3.cast {
+		width: 20%;
+		float: left;
+		margin-right: 15px;
 	}
 }
