@@ -8,7 +8,7 @@
 @branding_primary: #b42c30;
 
 body {
-	padding-top: 60px;
+	padding-top: 50px;
 	padding-bottom: 40px;
 }
 
@@ -64,6 +64,48 @@ a {
 
 img {
 	width: 100%;
+}
+
+.banner {
+    position: relative;
+    height: 500px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    color: #fff;
+    background: url("../images/banner/banner_0005_39steps.jpg") center center no-repeat #000;
+}
+
+.banner a,
+.banner h3,
+.banner h5,
+.banner h6,
+.banner p {
+    color: #fff;
+}
+
+.banner p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.banner .col-md-12 {
+    position: relative;
+}
+
+.banner-box {
+    position: absolute;
+    width: 55%;
+    right: 0;
+    margin-top: 70px;
+    padding: 30px;
+    background: rgba(0,0,0,.8);
+}
+
+@media (max-width: 760px){
+    .banner-box {
+        width: 100%;
+        margin-top: 50px;
+    }
 }
 
 .treatment {
