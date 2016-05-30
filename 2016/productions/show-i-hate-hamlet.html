@@ -12,6 +12,7 @@
         <link rel="stylesheet/less" type="text/css" href="../css/overwrites.less">
         <script src="../scripts/less-1.7.4.min.js" type="text/javascript"></script>
 
+        <link href="../css/swiper.min.css" rel="stylesheet">
         <link href="../css/new.css" rel="stylesheet">
     </head>
 
@@ -87,36 +88,49 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-4">
                     <img src="../images/productions/i_hate_hamlet.jpg" class="treatment teaser pull-right" title="I Hate Hamlet" alt="I Hate Hamlet" />
                     <h3>I Hate Hamlet</h3>
                     <p>A young and successful television actor relocates to New York, where he rents a marvelous, gothic apartment. With his television career in limbo, the actor is offered the opportunity to play Hamlet onstage, but there's one problem: He hates Hamlet. His dilemma deepens with the entrance of John Barrymore's ghost, who arrives intoxicated and in full costume to the apartment that once was his. The contrast between the two actors leads to a wildly funny duel over women, art, success, duty, television, and yes, the apartment.</p>
                     <h5>January 29 through February 21, 2016</h5>
                     <h6>By Paul Rudnick</h6>
+                </div>
+                <div class="col-sm-8">
+                    <div id="i_hate_hamlet" class="swiper-container">
+                        <div class="swiper-wrapper">
 
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
                     <h4>Cast</h4>
                     <div class="row">
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/bloodworth_robin.jpg" class="tease" title="Robin Bloodworth" alt="Robin Bloodworth" />
                             <p>Robin Bloodworth</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/david_kathryn.jpg" class="tease" title="Kathryn David" alt="Kathryn David" />
                             <p>Kathryn David</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/ford_dan.jpg" class="tease" title="Dan Ford" alt="Dan Ford" />
                             <p>Dan Ford</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/rickicki_gina.jpg" class="tease" title="Gina Rickicki" alt="Gina Rickicki" />
                             <p>Gina Rickicki</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/stevenson_holly.jpg" class="tease" title="Holly Stevenson" alt="Holly Stevenson" />
                             <p>Holly Stevenson</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/williams_jonathan.jpg" class="tease" title="Jonathan Williams" alt="Jonathan Williams" />
                             <p>Jonathan Williams</p>
                         </div>
@@ -134,5 +148,8 @@
 
         <script src="../scripts/lib/jquery.min.js"></script>
         <script src="../scripts/lib/bootstrap.min.js"></script>
+        <script src="../scripts/lib/underscore-min.js"></script>
+        <script src="../scripts/lib/swiper.min.js"></script>
+        <script src="../scripts/show-swiper.js"></script>
     </body>
 </html>

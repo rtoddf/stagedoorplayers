@@ -12,6 +12,7 @@
         <link rel="stylesheet/less" type="text/css" href="../css/overwrites.less">
         <script src="../scripts/less-1.7.4.min.js" type="text/javascript"></script>
 
+        <link href="../css/swiper.min.css" rel="stylesheet">
         <link href="../css/new.css" rel="stylesheet">
     </head>
 
@@ -87,20 +88,33 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-4">
                     <img src="../images/productions/southern_comforts.jpg" class="treatment teaser pull-right" title="Southern Comforts" alt="Southern Comforts" />
                     <h3>Southern Comforts</h3>
                     <p>In a sprawling New Jersey Victorian, a taciturn Yankee widower and a vivacious grandmother from Tennessee find what they least expected - a second chance at love. Their funny, awkward, and enchanting romance is filled with sweet surprise and unpredictable tribulation. Told with warmth and perceptive humor, this off-Broadway success is an affecting, late-in-life journey of compromise and rejuvenation, of personal risk and the rewards of change.</p>
                     <h5>October 2 through October 18, 2015</h5>
                     <h6>By Kathleen Clark</h6>
+                </div>
+                <div class="col-sm-8">
+                    <div id="southern_comforts" class="swiper-container">
+                        <div class="swiper-wrapper">
 
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
                     <h4>Cast</h4>
                     <div class="row">
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/ellsworth_rial.jpg" class="tease" title="Rial Ellsworth" alt="Rial Ellsworth" />
                             <p>Rial Ellsworth</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/karen_howell.jpg" class="tease" title="Karen Howell" alt="Karen Howell" />
                             <p>Karen Howell</p>
                         </div>
@@ -118,5 +132,8 @@
 
         <script src="../scripts/lib/jquery.min.js"></script>
         <script src="../scripts/lib/bootstrap.min.js"></script>
+        <script src="../scripts/lib/underscore-min.js"></script>
+        <script src="../scripts/lib/swiper.min.js"></script>
+        <script src="../scripts/show-swiper.js"></script>
     </body>
 </html>

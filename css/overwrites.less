@@ -68,11 +68,22 @@ img {
 
 .banner {
     position: relative;
-    height: 500px;
+    // height: 500px;
     margin-bottom: 10px;
-    padding: 20px 0;
+    // padding: 20px 0;
     color: #fff;
     background: url("../images/banner/banner_0005_39steps.jpg") center center no-repeat #000;
+}
+
+.banner.home-page {
+    background-image: url("../images/banner/home-page.jpg");
+}
+
+@media (max-width: 480px) {
+	.banner {
+		height: 250px;
+		background-size: 750px 250px;
+	}
 }
 
 .banner a,

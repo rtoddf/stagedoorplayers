@@ -1,6 +1,14 @@
+.col-xs-6,
+.col-sm-2,
 .col-sm-3,
 .col-sm-4 {
 	margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+	p {
+		line-height: 24px;
+	}
 }
 
 h4 {
@@ -9,24 +17,81 @@ h4 {
 	border-bottom: 1px solid #222;
 }
 
+.banner {
+    position: relative;
+    height: 500px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    color: #fff;
+    background: url("../images/banner/banner_0005_39steps.jpg") center center no-repeat #000;
+}
+
+.banner a,
+.banner h3,
+.banner h5,
+.banner h6,
+.banner p {
+    color: #fff;
+}
+
+.banner p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.banner .col-md-12 {
+    position: relative;
+}
+
+.banner-box {
+    position: absolute;
+    width: 55%;
+    right: 0;
+    margin-top: 70px;
+    padding: 30px;
+    background: rgba(0,0,0,.8);
+}
+
+@media (max-width: 760px){
+    .banner-box {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+.banner.home-page {
+    background-image: url("../images/banner/home-page.jpg");
+}
+
 .banner.southern-comforts {
-    background: url("../images/banner/southern-comforts.jpg") center center no-repeat #000;
+    background-image: url("../images/banner/southern-comforts.jpg");
 }
 
 .banner.let-nothing-you-dismay {
-    background: url("../images/banner/let-nothing-you-dismay.jpg") center center no-repeat #000;
+    background-image: url("../images/banner/let-nothing-you-dismay.jpg");
 }
 
 .banner.i-hate-hamlet {
-    background: url("../images/banner/i-hate-hamlet.jpg") center center no-repeat #000;
+    background-image: url("../images/banner/i-hate-hamlet.jpg");
 }
 
 .banner.hail-mary {
-    background: url("../images/banner/hail-mary.jpg") center center no-repeat #000;
+    background-image: url("../images/banner/hail-mary.jpg");
+}
+
+.banner.the-39-steps {
+    background-image: url("../images/banner/the-39-steps.jpg");
 }
 
 .banner.kiss-me-kate {
-    background: url("../images/banner/kiss-me-kate.jpg") center center no-repeat #000;
+    background-image: url("../images/banner/kiss-me-kate.jpg");
+}
+
+@media (max-width: 480px) {
+	.banner {
+		height: 250px;
+		background-size: 750px 250px;
+	}
 }
 
 .swiper {
@@ -64,6 +129,12 @@ h4 {
 	font-weight: bold;
 }
 
+@media (max-width: 480px) {
+	.staff-name {
+		margin-bottom: 10px;
+	}
+}
+
 .staff-name a:hover {
 	text-decoration: none;
 }
@@ -83,6 +154,14 @@ h4 {
 	width: auto;
 	float: right;
 	margin: 0 0 30px 30px;
+}
+
+@media (max-width: 480px) {
+	.staff img {
+		width: 100%;
+		float: none;
+		margin: 0 0 20px 0;
+	}
 }
 
 .content-holder {

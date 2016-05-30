@@ -12,6 +12,7 @@
         <link rel="stylesheet/less" type="text/css" href="../css/overwrites.less">
         <script src="../scripts/less-1.7.4.min.js" type="text/javascript"></script>
 
+        <link href="../css/swiper.min.css" rel="stylesheet">
         <link href="../css/new.css" rel="stylesheet">
     </head>
 
@@ -87,36 +88,48 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-4">
                     <img src="../images/productions/hail_mary.jpg" class="treatment teaser pull-right" title="Hail Mary!" alt="Hail Mary!" />
                     <h3>Hail Mary!</h3>
                     <p>This comedy/drama, by the author of Miracle on South Division Street, introduces Mary, a plucky novice who bravely does battle with her Mother Superior, a staunch defender of "that old time religion." Mary puts her future as a nun in serious jeopardy when she dares teach the children her personal, unorthodox views of God and his commandments. Her dream of Sisterhood is further threatened with the untimely arrival of a childhood sweetheart who suddenly declares his love. Will Mary give it all up for the love of a man? Or will she listen to the priest who mysteriously appears and declares Mary to be the world's next savior?</p>
                     <h5>March 25 through April 17, 2016</h5>
                     <h6>By Tom Dudzick</h6>
+                </div>
+                <div class="col-sm-8">
+                    <div id="hail_mary" class="swiper-container">
+                        <div class="swiper-wrapper">
 
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
                     <h4>Cast</h4>
                     <div class="row">
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/harness_theo.jpg" class="tease" title="Theo Harness" alt="Theo Harness" />
                             <p>Theo Harness</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/lester_jeff.jpg" class="tease" title="Jeff Lester" alt="Jeff Lester" />
                             <p>Jeff Lester</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/marianes_eliana.jpg" class="tease" title="Eliana Marianes" alt="Eliana Marianes" />
                             <p>Eliana Marianes</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/wilson_ann.jpg" class="tease" title="Ann Wilson" alt="Ann Wilson" />
                             <p>Ann Wilson</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/zoller_suzanne.jpg" class="tease" title="Suzanne Zoller" alt="Suzanne Zoller" />
                             <p>Suzanne Zoller</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/shadwell_dina.jpg" class="tease" title="Dina Shadwell" alt="Dina Shadwell" />
                             <p>Dina Shadwell</p>
                         </div>
@@ -134,5 +147,8 @@
 
         <script src="../scripts/lib/jquery.min.js"></script>
         <script src="../scripts/lib/bootstrap.min.js"></script>
+        <script src="../scripts/lib/underscore-min.js"></script>
+        <script src="../scripts/lib/swiper.min.js"></script>
+        <script src="../scripts/show-swiper.js"></script>
     </body>
 </html>
