@@ -12,6 +12,7 @@
         <link rel="stylesheet/less" type="text/css" href="../css/overwrites.less">
         <script src="../scripts/less-1.7.4.min.js" type="text/javascript"></script>
 
+        <link href="../css/swiper.min.css" rel="stylesheet">
         <link href="../css/new.css" rel="stylesheet">
     </head>
 
@@ -87,13 +88,26 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-4">
                     <img src="../images/productions/the_39_steps.jpg" class="treatment teaser pull-right" title="The 39 Steps" alt="The 39 Steps" />
                     <h3>The 39 Steps</h3>
                     <p>Mix a Hitchcock masterpiece with a juicy spy novel, add a dash of Monty Python and you have The 39 Steps, a fast-paced whodunit for anyone who loves the magic of theatre! This 2-time Tony&reg; and Drama Desk Award-winning treat is packed with nonstop laughs, over 150 zany characters (played by a ridiculously talented cast of 4), an on-stage plane crash, handcuffs, missing fingers and some good old-fashioned romance!</p>
                     <h5>May 20 through June 12, 2016</h5>
                     <h6>By Patrick Barlow and John Buchan</h6>
+                </div>
+                <div class="col-sm-8">
+                    <div id="the_39_steps" class="swiper-container">
+                        <div class="swiper-wrapper">
 
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
                     <h4>Cast</h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-2 cast">
@@ -139,5 +153,8 @@
 
         <script src="../scripts/lib/jquery.min.js"></script>
         <script src="../scripts/lib/bootstrap.min.js"></script>
+        <script src="../scripts/lib/underscore-min.js"></script>
+        <script src="../scripts/lib/swiper.min.js"></script>
+        <script src="../scripts/show-swiper.js"></script>
     </body>
 </html>
