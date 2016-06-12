@@ -87,6 +87,31 @@ h4 {
     background-image: url("../images/banner/kiss-me-kate.jpg");
 }
 
+
+.banner.barefoot-in-the-park {
+    background-image: url("../images/banner/barefoot-in-the-park.jpg");
+}
+
+.banner.let-nothing-you-dismay-2016 {
+    background-image: url("../images/banner/let-nothing-you-dismay-2016.jpg");
+}
+
+.banner.death-by-design {
+    background-image: url("../images/banner/death-by-design.jpg");
+}
+
+.banner.the-cemetery-club {
+    background-image: url("../images/banner/the-cemetery-club.jpg");
+}
+
+.banner.boeing-boeing {
+    background-image: url("../images/banner/boeing-boeing.jpg");
+}
+
+.banner.baby-case {
+    background-image: url("../images/banner/baby-case.jpg");
+}
+
 @media (max-width: 480px) {
 	.banner {
 		height: 250px;
@@ -112,6 +137,10 @@ h4 {
 	position: relative;
 	border: 1px solid #000;
 }
+
+// .tease.preshow {
+// 	width: auto;
+// }
 
 .cast p {
 	margin: 10px 0;
