@@ -12,6 +12,7 @@
         <link rel="stylesheet/less" type="text/css" href="../css/overwrites.less">
         <script src="../scripts/less-1.7.4.min.js" type="text/javascript"></script>
 
+        <link href="../css/swiper.min.css" rel="stylesheet">
         <link href="../css/new.css" rel="stylesheet">
     </head>
 
@@ -81,69 +82,83 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-4">
                     <img src="../images/productions/kiss_me_kate.jpg" class="treatment teaser pull-right" title="Kiss Me, Kate" alt="Kiss Me, Kate" />
                     <h3>Kiss Me, Kate</h3>
                     <p>The great backstage "show within a show" musical comedy, featuring what many call Cole Porter’s greatest score, comes to Stage Door in all its Shakespearean tongue in cheek glory. This hysterical, tuneful battle of the sexes, where each cast member’s on-stage life is complicated by what is happening offstage, contains such Porter classics as "So In Love," "Too Darn Hot," "Wunderbar," "From This Moment On," and "Another Opening, Another Show."</p>
 
                     <p><a href="cast.html">Meet the cast of Kiss Me Kate</a></p>
                     <h5>July 15 through August 7, 2016</h5>
+                </div>
+                <div class="col-sm-8">
+                    <div id="kiss_me_kate" class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    
 
                     <h4>Cast</h4>
                     <div class="row">
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/davis_ben.jpg" class="tease" title="Ben Davis" alt="Ben Davis" />
                             <p>Ben Davis</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/crownfield_ritchie.jpg" class="tease" title="Richie Crownfield" alt="Richie Crownfield" />
                             <p>Richie Crownfield</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/de_maria_jessica.jpg" class="tease" title="Jessica De Maria " alt="Jessica De Maria " />
                             <p>Jessica De Maria</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/deavours_george.jpg" class="tease" title="George Deavours" alt="George Deavours" />
                             <p>George Deavours</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/ellis_brittany.jpg" class="tease" title="Brittany Ellis" alt="Brittany Ellis" />
                             <p>Brittany Ellis</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/folks_shelby.jpg" class="tease" title="Shelby Folks" alt="Shelby Folks" />
                             <p>Shelby Folks</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/hernandez_luis.jpg" class="tease" title="Luis Hernandez" alt="Luis Hernandez" />
                             <p>Luis Hernandez</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/hunter_greg.jpg" class="tease" title="Greg Hunter" alt="Greg Hunter" />
                             <p>Greg Hunter</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/klopach_aj.jpg" class="tease" title="AJ Klopach" alt="AJ Klopach" />
                             <p>AJ Klopach</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/mattox_paige.jpg" class="tease" title="Paige Mattox" alt="Paige Mattox" />
                             <p>Paige Mattox</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/ricketson_lyndsay.jpg" class="tease" title="Lyndsay Ricketson" alt="Lyndsay Ricketson" />
                             <p>Lyndsay Ricketson</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/sarkis_tyler.jpg" class="tease" title="Tyler Sarkis" alt="Tyler Sarkis" />
                             <p>Tyler Sarkis</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/smith_bryant.jpg" class="tease" title="Bryant Smith" alt="Bryant Smith" />
                             <p>Bryant Smith</p>
                         </div>
-                        <div class="col-sm-2 cast">
+                        <div class="col-xs-6 col-sm-2 cast">
                             <img src="../images/actors/stamper_xylina.jpg" class="tease" title="Xylina Stamper" alt="Xylina Stamper" />
                             <p>Xylina Stamper</p>
                         </div>
@@ -161,5 +176,8 @@
 
         <script src="../scripts/lib/jquery.min.js"></script>
         <script src="../scripts/lib/bootstrap.min.js"></script>
+        <script src="../scripts/lib/underscore-min.js"></script>
+        <script src="../scripts/lib/swiper.min.js"></script>
+        <script src="../scripts/show-swiper.js"></script>
     </body>
 </html>
