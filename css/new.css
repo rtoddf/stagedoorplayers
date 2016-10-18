@@ -117,6 +117,10 @@ h4 {
     background-image: url("../images/banner/baby-case.jpg");
 }
 
+.banner.let-nothing-you-dismay-03 {
+	background-image: url("../images/banner/let-nothing-you-dismay-03.jpg");
+}
+
 @media (max-width: 480px) {
 	.banner {
 		height: 250px;
