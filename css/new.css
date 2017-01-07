@@ -244,6 +244,20 @@ h4 {
 	font-size: 18px;
 }
 
+.tease-holder .content-holder.under {
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	color: #000;
+	background-image: none;
+}
+
+.tease-holder .content-holder.under a,
+.tease-holder .content-holder.under h5,
+.tease-holder .content-holder.under h5 a {
+	color: #b42c30
+}
+
 @media (max-width: 560px) {
 	.tease-holder .content-holder {
 		position: relative;
