@@ -125,6 +125,10 @@ h4 {
 	background-image: url("../images/banner/let-nothing-you-dismay-2016-02.jpg");
 }
 
+.banner.the-cemetary-club {
+	background-image: url("../images/banner/the-cemetary-club.jpg");
+}
+
 @media (max-width: 480px) {
 	.banner {
 		height: 250px;
