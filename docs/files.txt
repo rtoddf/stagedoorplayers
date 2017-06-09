@@ -1,0 +1,11 @@
+modified:   boxoffice/index.html
+	modified:   boxoffice/subscriptions.html
+	deleted:    docs/subform.pdf
+	modified:   index.html
+	modified:   productions/show-annie-get-your-gun.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	docs/subform_old.pdf
+
