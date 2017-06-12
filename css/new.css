@@ -157,7 +157,9 @@ h4 {
 	background-image: url("../images/banner/smokey-joes-cafe.png");
 }
 
-
+.banner.annie-get-your-gun {
+	background-image: url("../images/banner/annie-get-your-gun.jpg");
+}
 
 @media (max-width: 480px) {
 	.banner {
