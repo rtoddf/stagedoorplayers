@@ -134,27 +134,27 @@ h4 {
 }
 
 .banner.dial-m-for-murder {
-	background-image: url("../images/banner/dial-m-for-murder.png");
+	background-image: url("../images/banner/dial-m-for-murder-02.jpg");
 }
 
 .banner.christmas-at-sweet-apple {
-	background-image: url("../images/banner/christmas-at-sweet-apple.png");
+	background-image: url("../images/banner/christmas-at-sweet-apple.jpg");
 }
 
 .banner.picnic {
-	background-image: url("../images/banner/picnic.png");
+	background-image: url("../images/banner/picnic.jpg");
 }
 
 .banner.mass-appeal {
-	background-image: url("../images/banner/mass-appeal.png");
+	background-image: url("../images/banner/mass-appeal.jpg");
 }
 
 .banner.living-on-love {
-	background-image: url("../images/banner/living-on-love.png");
+	background-image: url("../images/banner/living-on-love.jpg");
 }
 
 .banner.smokey-joes-cafe {
-	background-image: url("../images/banner/smokey-joes-cafe.png");
+	background-image: url("../images/banner/smokey-joes-cafe.jpg");
 }
 
 .banner.annie-get-your-gun {
@@ -163,8 +163,8 @@ h4 {
 
 @media (max-width: 480px) {
 	.banner {
-		height: 250px;
-		background-size: 750px 250px;
+		max-height: 130px;
+		background-size: 100%;
 	}
 }
 
