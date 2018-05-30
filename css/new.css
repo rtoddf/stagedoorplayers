@@ -173,6 +173,33 @@ h4 {
 	background-image: url("../images/banner/sweet-apple.jpg");
 }
 
+.banner.a-red-plaid-shirt {
+	background-image: url("../images/banner/a-red-plaid-shirt.jpg");
+}
+
+.banner.a-nice-family-christmas {
+	background-image: url("../images/banner/a-nice-family-christmas.jpg");
+}
+
+.banner.the-last-night-of-ballyhoo {
+	background-image: url("../images/banner/the-last-night-of-ballyhoo.jpg");
+}
+
+.banner.secrets-of-a-soccer-mom {
+	background-image: url("../images/banner/secrets-of-a-soccer-mom.jpg");
+}
+
+.banner.dames-at-sea {
+	background-image: url("../images/banner/dames-at-sea.jpg");
+}
+
+.banner.laughter-on-the-23rd-floor {
+	background-image: url("../images/banner/laughter-on-the-23rd-floor.jpg");
+}
+
+
+
+
 @media (max-width: 480px) {
 	.banner {
 		max-height: 130px;
