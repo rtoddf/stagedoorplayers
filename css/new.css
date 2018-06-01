@@ -158,7 +158,11 @@ h4 {
 }
 
 .banner.living-on-love {
-	background-image: url("../images/banner/living-on-love.jpg");
+	background-image: url("../images/banner/living-on-love03.jpg");
+}
+
+.banner.living-on-love02 {
+	background-image: url("../images/banner/living-on-love02.jpg");
 }
 
 .banner.smokey-joes-cafe {
