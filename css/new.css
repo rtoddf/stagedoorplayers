@@ -197,8 +197,8 @@ h4 {
 	background-image: url("../images/banner/secrets-of-a-soccer-mom.jpg");
 }
 
-.banner.dames-at-sea {
-	background-image: url("../images/banner/dames-at-sea.jpg");
+.banner.aint-misbehavin {
+	background-image: url("../images/banner/aint-misbehavin.jpg");
 }
 
 .banner.laughter-on-the-23rd-floor {
@@ -209,9 +209,6 @@ h4 {
 	height: 670px;
 	background-image: url("../images/banner/season18-19.jpg");
 }
-
-
-
 
 @media (max-width: 480px) {
 	.banner {
