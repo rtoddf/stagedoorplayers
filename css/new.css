@@ -182,7 +182,11 @@ h4 {
 }
 
 .banner.a-red-plaid-shirt {
-	background-image: url("../images/banner/a-red-plaid-shirt.jpg");
+	background-image: url("../images/banner/a-red-plaid-shirt03.jpg");
+}
+
+.banner.a-red-plaid-shirt02 {
+	background-image: url("../images/banner/a-red-plaid-shirt02.jpg");
 }
 
 .banner.a-nice-family-christmas {
@@ -363,3 +367,6 @@ h4 {
 }
 
 
+.teaser.pull-left {
+	margin-right: 20px;
+}
