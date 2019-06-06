@@ -225,10 +225,39 @@ h4 {
 	background-image: url("../images/banner/laughter-on-the-23rd-floor.jpg");
 }
 
+.banner.the-savannah-sipping-society {
+	background-image: url("../images/banner/the-savannah-sipping-society.jpg");
+}
+
+.banner.a-nice-family-gathering {
+	background-image: url("../images/banner/a-nice-family-gathering.jpg");
+}
+
+.banner.the-glass-menagerie {
+	background-image: url("../images/banner/the-glass-menagerie.jpg");
+}
+
+.banner.the-outsider {
+	background-image: url("../images/banner/the-outsider.jpg");
+}
+
+.banner.spelling-bee {
+	background-image: url("../images/banner/spelling-bee.jpg");
+}
+
+.banner.the-fox-on-the-fairway {
+	background-image: url("../images/banner/the-fox-on-the-fairway.jpg");
+}
+
 .banner.season18-19 {
 	height: 670px;
 	background-image: url("../images/banner/season18-19.jpg");
 }
+
+
+
+
+
 
 @media (max-width: 480px) {
 	.banner {
