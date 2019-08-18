@@ -254,7 +254,15 @@ h4 {
 	background-image: url("../images/banner/season18-19.jpg");
 }
 
+.banner.season18-19 {
+	height: 670px;
+	background-image: url("../images/banner/season18-19.jpg");
+}
 
+.banner.season-1920 {
+	height: 704px;
+	background-image: url("../images/banner/season-1920.jpg");
+}
 
 
 
