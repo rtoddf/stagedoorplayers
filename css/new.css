@@ -226,7 +226,8 @@ h4 {
 }
 
 .banner.the-savannah-sipping-society {
-	background-image: url("../images/banner/the-savannah-sipping-society.jpg");
+	height: 500px;
+	background-image: url("../images/banner/the-savannah-sipping-society02.jpg");
 }
 
 .banner.a-nice-family-gathering {
