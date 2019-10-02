@@ -230,6 +230,11 @@ h4 {
 	background-image: url("../images/banner/the-savannah-sipping-society02.jpg");
 }
 
+.banner.the-savannah-sipping-society-03 {
+	height: 500px;
+	background-image: url("../images/banner/the-savannah-sipping-society03.jpg");
+}
+
 .banner.a-nice-family-gathering {
 	background-image: url("../images/banner/a-nice-family-gathering.jpg");
 }
