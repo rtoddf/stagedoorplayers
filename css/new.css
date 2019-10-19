@@ -3,32 +3,33 @@
 .col-sm-3,
 .col-sm-4,
 .col-md-2 {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .stand-alone {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 480px) {
-	p {
-		line-height: 24px;
-	}
+  p {
+    line-height: 24px;
+  }
 }
 
 h4 {
-	margin: 20px 0;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #222;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #222;
 }
 
 .banner {
-    position: relative;
-    height: 555px;
-    margin-bottom: 10px;
-    padding: 20px 0;
-    color: #fff;
-    background: url("../images/banner/banner_0005_39steps.jpg") center center no-repeat #000;
+  position: relative;
+  height: 555px;
+  margin-bottom: 10px;
+  padding: 20px 0;
+  color: #fff;
+  background: url("../images/banner/banner_0005_39steps.jpg") center center
+    no-repeat #000;
 }
 
 .banner a,
@@ -36,396 +37,399 @@ h4 {
 .banner h5,
 .banner h6,
 .banner p {
-    color: #fff;
+  color: #fff;
 }
 
 .banner p {
-    font-size: 16px;
-    line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .banner .col-md-12 {
-    position: relative;
+  position: relative;
 }
 
 .banner-box {
-    position: absolute;
-    width: 55%;
-    right: 0;
-    margin-top: 70px;
-    padding: 30px;
-    background: rgba(0,0,0,.8);
+  position: absolute;
+  width: 55%;
+  right: 0;
+  margin-top: 70px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.8);
 }
 
-@media (max-width: 760px){
-    .banner-box {
-        width: 100%;
-        margin-top: 50px;
-    }
+@media (max-width: 760px) {
+  .banner-box {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 
 .banner.home-page {
-    background-image: url("../images/banner/home-page.jpg");
+  background-image: url("../images/banner/home-page.jpg");
 }
 
 .banner.southern-comforts {
-    background-image: url("../images/banner/southern-comforts.jpg");
+  background-image: url("../images/banner/southern-comforts.jpg");
 }
 
 .banner.let-nothing-you-dismay {
-    background-image: url("../images/banner/let-nothing-you-dismay.jpg");
+  background-image: url("../images/banner/let-nothing-you-dismay.jpg");
 }
 
 .banner.i-hate-hamlet {
-    background-image: url("../images/banner/i-hate-hamlet.jpg");
+  background-image: url("../images/banner/i-hate-hamlet.jpg");
 }
 
 .banner.hail-mary {
-    background-image: url("../images/banner/hail-mary.jpg");
+  background-image: url("../images/banner/hail-mary.jpg");
 }
 
 .banner.the-39-steps {
-    background-image: url("../images/banner/the-39-steps.jpg");
+  background-image: url("../images/banner/the-39-steps.jpg");
 }
 
 .banner.kiss-me-kate {
-    background-image: url("../images/banner/kiss-me-kate.jpg");
+  background-image: url("../images/banner/kiss-me-kate.jpg");
 }
 
-
 .banner.barefoot-in-the-park {
-    background-image: url("../images/banner/barefoot-in-the-park.jpg");
+  background-image: url("../images/banner/barefoot-in-the-park.jpg");
 }
 
 .banner.barefoot-in-the-park-02 {
-    background-image: url("../images/banner/barefoot-in-the-park-02.jpg");
+  background-image: url("../images/banner/barefoot-in-the-park-02.jpg");
 }
 
 .banner.let-nothing-you-dismay-2016 {
-    background-image: url("../images/banner/let-nothing-you-dismay-2016.jpg");
+  background-image: url("../images/banner/let-nothing-you-dismay-2016.jpg");
 }
 
 .banner.death-by-design {
-    background-image: url("../images/banner/death-by-design.jpg");
+  background-image: url("../images/banner/death-by-design.jpg");
 }
 
 .banner.death-by-design-page {
-    background-image: url("../images/banner/death-by-design-page.jpg");
+  background-image: url("../images/banner/death-by-design-page.jpg");
 }
 
 .banner.the-cemetery-club {
-    background-image: url("../images/banner/the-cemetery-club.jpg");
+  background-image: url("../images/banner/the-cemetery-club.jpg");
 }
 
 .banner.boeing-boeing {
-    background-image: url("../images/banner/boeing-boeing.jpg");
+  background-image: url("../images/banner/boeing-boeing.jpg");
 }
 
 .banner.boeing-boeing02 {
-    background-image: url("../images/banner/boeing_boeing.jpg");
+  background-image: url("../images/banner/boeing_boeing.jpg");
 }
 
 .banner.baby-case {
-    background-image: url("../images/banner/annie-get-your-gun02.jpg");
+  background-image: url("../images/banner/annie-get-your-gun02.jpg");
 }
 
 .banner.let-nothing-you-dismay-03 {
-	background-image: url("../images/banner/let-nothing-you-dismay-2016-02.jpg");
+  background-image: url("../images/banner/let-nothing-you-dismay-2016-02.jpg");
 }
 
 .banner.the-cemetary-club {
-	background-image: url("../images/banner/the-cemetary-club.jpg");
+  background-image: url("../images/banner/the-cemetary-club.jpg");
 }
 
 .banner.dial-m-for-murder {
-	background-image: url("../images/banner/dial-m-for-murder-02.jpg");
+  background-image: url("../images/banner/dial-m-for-murder-02.jpg");
 }
 
 .banner.christmas-at-sweet-apple {
-	background-image: url("../images/banner/christmas-at-sweet-apple.jpg");
+  background-image: url("../images/banner/christmas-at-sweet-apple.jpg");
 }
 
 .banner.picnic {
-	background-image: url("../images/banner/picnic02.jpg");
+  background-image: url("../images/banner/picnic02.jpg");
 }
 
 .banner.mass-appeal {
-	background-image: url("../images/banner/mass-appeal02.jpg");
+  background-image: url("../images/banner/mass-appeal02.jpg");
 }
 
 .banner.mass-appeal03 {
-	background-image: url("../images/banner/mass-appeal03.jpg");
+  background-image: url("../images/banner/mass-appeal03.jpg");
 }
 
 .banner.living-on-love {
-	background-image: url("../images/banner/living-on-love03.jpg");
+  background-image: url("../images/banner/living-on-love03.jpg");
 }
 
 .banner.living-on-love02 {
-	background-image: url("../images/banner/living-on-love02.jpg");
+  background-image: url("../images/banner/living-on-love02.jpg");
 }
 
 .banner.smokey-joes-cafe {
-	background-image: url("../images/banner/smokey-joes-cafe.jpg");
+  background-image: url("../images/banner/smokey-joes-cafe.jpg");
 }
 
 .banner.smokey-joes-cafe02 {
-	background-image: url("../images/banner/smokey-joes-cafe02.jpg");
+  background-image: url("../images/banner/smokey-joes-cafe02.jpg");
 }
 
 .banner.annie-get-your-gun {
-	background-image: url("../images/banner/annie-get-your-gun.jpg");
+  background-image: url("../images/banner/annie-get-your-gun.jpg");
 }
 
 .banner.christmas-at-sweet-apple-page {
-	background-image: url("../images/banner/sweet-apple.jpg");
+  background-image: url("../images/banner/sweet-apple.jpg");
 }
 
 .banner.a-red-plaid-shirt {
-	background-image: url("../images/banner/a-red-plaid-shirt03.jpg");
+  background-image: url("../images/banner/a-red-plaid-shirt03.jpg");
 }
 
 .banner.a-red-plaid-shirt02 {
-	background-image: url("../images/banner/a-red-plaid-shirt02.jpg");
+  background-image: url("../images/banner/a-red-plaid-shirt02.jpg");
 }
 
 .banner.a-nice-family-christmas {
-	background-image: url("../images/banner/a-nice-family-christmas.jpg");
+  background-image: url("../images/banner/a-nice-family-christmas.jpg");
 }
 
 .banner.a-nice-family-christmas02 {
-	background-image: url("../images/banner/a-nice-family-christmas02.jpg");
+  background-image: url("../images/banner/a-nice-family-christmas02.jpg");
 }
 
 .banner.the-last-night-of-ballyhoo {
-	background-image: url("../images/banner/the-last-night-of-ballyhoo.jpg");
+  background-image: url("../images/banner/the-last-night-of-ballyhoo.jpg");
 }
 
 .banner.the-last-night-of-ballyhoo02 {
-	background-image: url("../images/banner/the-last-night-of-ballyhoo02.jpg");
+  background-image: url("../images/banner/the-last-night-of-ballyhoo02.jpg");
 }
 
 .banner.secrets-of-a-soccer-mom {
-	background-image: url("../images/banner/secrets-of-a-soccer-mom.jpg");
+  background-image: url("../images/banner/secrets-of-a-soccer-mom.jpg");
 }
 
 .banner.secrets-of-a-soccer-mom02 {
-	background-image: url("../images/banner/secrets-of-a-soccer-mom02.jpg");
+  background-image: url("../images/banner/secrets-of-a-soccer-mom02.jpg");
 }
 
 .banner.aint-misbehavin {
-	background-image: url("../images/banner/aint-misbehavin.jpg");
+  background-image: url("../images/banner/aint-misbehavin.jpg");
 }
 
 .banner.aint-misbehavin02 {
-	background-image: url("../images/banner/aint-misbehavin02.jpg");
+  background-image: url("../images/banner/aint-misbehavin02.jpg");
 }
 
 .banner.laughter-on-the-23rd-floor {
-	background-image: url("../images/banner/laughter-on-the-23rd-floor.jpg");
+  background-image: url("../images/banner/laughter-on-the-23rd-floor.jpg");
 }
 
 .banner.the-savannah-sipping-society {
-	height: 500px;
-	background-image: url("../images/banner/the-savannah-sipping-society02.jpg");
+  height: 500px;
+  background-image: url("../images/banner/the-savannah-sipping-society02.jpg");
 }
 
 .banner.the-savannah-sipping-society-03 {
-	height: 500px;
-	background-image: url("../images/banner/the-savannah-sipping-society03.jpg");
+  height: 500px;
+  background-image: url("../images/banner/the-savannah-sipping-society03.jpg");
 }
 
 .banner.a-nice-family-gathering {
-	background-image: url("../images/banner/a-nice-family-gathering.jpg");
+  height: 500px;
+  background-image: url("../images/banner/a-nice-family-gathering.jpg");
+  background-position: right center;
 }
 
 .banner.the-glass-menagerie {
-	background-image: url("../images/banner/the-glass-menagerie.jpg");
+  background-image: url("../images/banner/the-glass-menagerie.jpg");
 }
 
 .banner.the-outsider {
-	background-image: url("../images/banner/the-outsider.jpg");
+  background-image: url("../images/banner/the-outsider.jpg");
 }
 
 .banner.spelling-bee {
-	background-image: url("../images/banner/spelling-bee.jpg");
+  background-image: url("../images/banner/spelling-bee.jpg");
 }
 
 .banner.the-fox-on-the-fairway {
-	background-image: url("../images/banner/the-fox-on-the-fairway.jpg");
+  background-image: url("../images/banner/the-fox-on-the-fairway.jpg");
 }
 
 .banner.season18-19 {
-	height: 670px;
-	background-image: url("../images/banner/season18-19.jpg");
+  height: 670px;
+  background-image: url("../images/banner/season18-19.jpg");
 }
 
 .banner.season18-19 {
-	height: 670px;
-	background-image: url("../images/banner/season18-19.jpg");
+  height: 670px;
+  background-image: url("../images/banner/season18-19.jpg");
 }
 
 .banner.season-1920 {
-	height: 704px;
-	background-image: url("../images/banner/season-1920.jpg");
+  height: 704px;
+  background-image: url("../images/banner/season-1920.jpg");
 }
 
-
-
-
 @media (max-width: 480px) {
-	.banner {
-		max-height: 130px;
-		background-size: 100%;
-	}
+  .banner {
+    max-height: 130px;
+    background-size: 100%;
+  }
 
-	.banner.season18-19 {
-		max-height: 255px;
-	}
+  .banner.season18-19 {
+    max-height: 255px;
+  }
 }
 
 .swiper {
-	background: #000;
+  background: #000;
 }
 
 .footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	min-height: 50px;
-	padding: 10px 0;
-	background: #222;
-	color: #fff;
-	z-index: 20;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 50px;
+  padding: 10px 0;
+  background: #222;
+  color: #fff;
+  z-index: 20;
 }
 
 .tease {
-	position: relative;
-	border: 1px solid #000;
+  position: relative;
+  border: 1px solid #000;
 }
 
 .cast p {
-	margin: 10px 0;
-	font-size: 18px;
-	text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
 }
 
 .staff {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .staff-name {
-	margin-bottom: 0;
-	font-size: 24px;
-	font-weight: bold;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 @media (max-width: 480px) {
-	.staff-name {
-		margin-bottom: 10px;
-	}
+  .staff-name {
+    margin-bottom: 10px;
+  }
 }
 
 .staff-name a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .staff h4 {
-	margin-bottom: 5px;
-	font-size: 24px;
+  margin-bottom: 5px;
+  font-size: 24px;
 }
 
 .staff h6 {
-	margin-bottom: 10px;
-	font-size: 18px;
-	font-style: normal;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .staff img {
-	width: auto;
-	float: right;
-	margin: 0 0 30px 30px;
+  width: auto;
+  float: right;
+  margin: 0 0 30px 30px;
 }
 
 @media (max-width: 480px) {
-	.staff img {
-		width: 100%;
-		float: none;
-		margin: 0 0 20px 0;
-	}
+  .staff img {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px 0;
+  }
 }
 
 .content-holder {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	padding: 20px 10px 10px;
-	color: #fff;
-	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2) 20%, rgba(0,0,0,1));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 10px 10px;
+  color: #fff;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 1)
+  );
 }
 
 .content-holder h4,
 .content-holder h6,
 .content-holder a {
-	color: #fff;
+  color: #fff;
 }
 
 .teases {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .tease-holder {
-	position: relative;
+  position: relative;
 }
 
 .tease-holder .image-holder {
-	border: 1px solid #000;
+  border: 1px solid #000;
 }
 
 .tease-holder .content-holder {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	padding: 20px 10px 0;
-	color: #fff;
-	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2) 20%, rgba(0,0,0,1));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 10px 0;
+  color: #fff;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 1)
+  );
 }
 
 .tease-holder .content-holder h5 {
-	margin-bottom: 5px;
-	font-size: 18px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .tease-holder .content-holder.under {
-	position: relative;
-	width: 100%;
-	padding: 10px;
-	color: #000;
-	background-image: none;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  color: #000;
+  background-image: none;
 }
 
 .tease-holder .content-holder.under a,
 .tease-holder .content-holder.under h5,
 .tease-holder .content-holder.under h5 a {
-	color: #b42c30
+  color: #b42c30;
 }
 
 @media (max-width: 560px) {
-	.tease-holder .content-holder {
-		position: relative;
-		padding: 5px 0 0;
-		background: transparent;
-		color: #000;
-	}
+  .tease-holder .content-holder {
+    position: relative;
+    padding: 5px 0 0;
+    background: transparent;
+    color: #000;
+  }
 
-	.tease-holder .content-holder a {
-		color: #000;
-	}
-
-
+  .tease-holder .content-holder a {
+    color: #000;
+  }
 }
 
-
 .teaser.pull-left {
-	margin-right: 20px;
+  margin-right: 20px;
 }
