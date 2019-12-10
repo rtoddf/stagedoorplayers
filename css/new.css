@@ -242,7 +242,9 @@ h4 {
 }
 
 .banner.the-glass-menagerie {
-  background-image: url("../images/banner/the-glass-menagerie.jpg");
+  height: 500px;
+  background-image: url("../images/banner/the-glass-menagerie-banner.jpg");
+  background-position: center;
 }
 
 .banner.the-outsider {
