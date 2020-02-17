@@ -248,7 +248,9 @@ h4 {
 }
 
 .banner.the-outsider {
+  height: 500px;
   background-image: url("../images/banner/the-outsider.jpg");
+  background-position: center;
 }
 
 .banner.spelling-bee {
