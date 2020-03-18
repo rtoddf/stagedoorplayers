@@ -253,6 +253,14 @@ h4 {
   background-position: center;
 }
 
+.banner.sdp-logo {
+  height: 388px;
+  background-image: url("../images/banner/sdp-logo.jpg");
+  background-position: center;
+  background-color: #fff;
+}
+
+
 .banner.spelling-bee {
   background-image: url("../images/banner/spelling-bee.jpg");
 }
